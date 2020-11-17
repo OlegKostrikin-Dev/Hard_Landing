@@ -1,0 +1,113 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "994A8BB1-0A85-47C4-9BB5-680061867558"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 1000,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5028CEDF-4A0D-46EA-88B9-C72898700424"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "CC6A6265-C7A2-4AF4-BEE0-C42904CBEA9B"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 10,
+                        "name": "Spot light"
+                    }
+                },
+                "animation": {
+                    "uuid": "5DC80A0C-117F-4248-9BB0-F0072DC15E81"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5093FFBF-A5CE-4176-B7EC-B350969747AF"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "625DD68B-3E99-4EDB-B2CA-D3FE2F4F9609"
+                    }
+                },
+                "animation": {
+                    "uuid": "8F6C0C91-33E3-437F-82F8-516F8DC9C906"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "07CE57DA-C20D-4826-B6EE-17A44C6BE5C3"
+            },
+            "ownerScriptId": {
+                "uuid": "994A8BB1-0A85-47C4-9BB5-680061867558"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2B757B54-9BD6-47CD-8D57-73E10CE3E059"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2B757B54-9BD6-47CD-8D57-73E10CE3E059"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "99433736-E657-442E-B916-0E421517AB6B"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "625DD68B-3E99-4EDB-B2CA-D3FE2F4F9609"
+                },
+                "name": "t",
+                "type": "float",
+                "value": 2.576106071472168
+            }
+        ]
+    }
+}

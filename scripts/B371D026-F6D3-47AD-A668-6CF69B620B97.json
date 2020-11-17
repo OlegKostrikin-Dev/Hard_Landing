@@ -1,0 +1,76 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B371D026-F6D3-47AD-A668-6CF69B620B97"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 2000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7055E5D1-A18F-4E4C-945A-2C08D0A2F4A4"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "AF178884-F8BD-4EC1-ABAA-79238A75B9D3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "GateParts"
+                    }
+                },
+                "animation": {
+                    "uuid": "B2A909AE-92A0-4650-ACBC-FFFCD5C840B2"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "2E26344B-052A-4390-B1C3-867AEF3A02E2"
+            },
+            "ownerScriptId": {
+                "uuid": "B371D026-F6D3-47AD-A668-6CF69B620B97"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "AF178884-F8BD-4EC1-ABAA-79238A75B9D3"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "9EDCDF8E-93D0-4330-9B9A-510B26292904"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

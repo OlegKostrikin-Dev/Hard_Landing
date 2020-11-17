@@ -1,0 +1,92 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "7C035B7F-603D-48DB-9C84-0F587B3F483D"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 400,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "origin"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.6000000238418579,
+                                        0.03999999910593033
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.9800000190734863,
+                                        0.35499998927116396
+                                    ]
+                                },
+                                "order": "cubic",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "origin+r"
+                                },
+                                "time": 200,
+                                "point1": {
+                                    "values": [
+                                        0.6000000238418579,
+                                        0.2800000011920929
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.7350000143051148,
+                                        0.04500000178813934
+                                    ]
+                                },
+                                "order": "cubic",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "origin-r"
+                                },
+                                "time": 400,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionYBlendAccessor"
+        }
+    ]
+}

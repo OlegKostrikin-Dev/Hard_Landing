@@ -1,0 +1,137 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+    },
+    "name": "Animations Animation 1",
+    "enableOnAwake": false,
+    "duration": 32000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "38AF0941-15CB-4D57-B5F7-CDB35C806F8E"
+                },
+                "name": "Sun",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "46CED95C-3206-4749-9BA7-ABB9851827AB"
+                },
+                "AnimationType": "sun",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "E6B11D25-F744-4D05-873C-AC4225501351"
+            },
+            "ownerScriptId": {
+                "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "5A25365B-2C29-4B75-B6F1-C9095DC66679"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "ED19DB1D-D8CB-47A9-818A-3ADD995A963D"
+            },
+            "ownerScriptId": {
+                "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "D6C35B2C-F68A-4C1E-A4E6-EB24EE1DA11C"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "3F905F68-D7B8-4C49-9792-865BE132C533"
+            },
+            "ownerScriptId": {
+                "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "10124675-EC4B-4784-828C-7C0BD0D12052"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "C6A700FB-594D-4F64-A3EE-FFF378C1478E"
+            },
+            "ownerScriptId": {
+                "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2975650D-769B-4B41-820B-B1DC58060033"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "01C99B2B-8007-458F-8CEF-0C65E81A1A6B"
+            },
+            "ownerScriptId": {
+                "uuid": "EC2D4ED8-DCE8-440D-8F81-07D9A2034B6D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A873A510-5D86-4AA1-8BB8-81B5E90860AD"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

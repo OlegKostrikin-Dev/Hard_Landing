@@ -1,0 +1,194 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "F51C9873-CE3F-44D3-8BF3-071457B210BB"
+    },
+    "tracks": [
+        {
+            "@class": "Vector3BehaviorTrack",
+            "clips": [
+                {
+                    "@class": "Vector3BehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2000,
+                    "script": "Vector3ValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "Vector3BezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.139559,0.139559,0.139559};return[v];"
+                                },
+                                "time": 2000,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            },
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.705882,0.294118,0.168627};return[v];"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "Vector3BehaviorTrackScript",
+            "accessor": "SkyBoxTopColorAccessor"
+        },
+        {
+            "@class": "Vector3BehaviorTrack",
+            "clips": [
+                {
+                    "@class": "Vector3BehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2000,
+                    "script": "Vector3ValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "Vector3BezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.265187,0.0565652,0.0565652};return[v];"
+                                },
+                                "time": 2000,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            },
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={1,1,1};return[v];"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "Vector3BehaviorTrackScript",
+            "accessor": "SkyBoxMiddleColorAccessor"
+        },
+        {
+            "@class": "Vector3BehaviorTrack",
+            "clips": [
+                {
+                    "@class": "Vector3BehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2000,
+                    "script": "Vector3ValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "Vector3BezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.499626,0.165637,0.165637};return[v];"
+                                },
+                                "time": 2000,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            },
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.0509804,0.101961,0.25098};return[v];"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "Vector3BehaviorTrackScript",
+            "accessor": "SkyBoxBottomColorAccessor"
+        }
+    ]
+}

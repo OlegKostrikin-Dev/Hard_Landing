@@ -1,0 +1,42 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "6EC14EC6-1F17-45EB-8D31-A44422537C19"
+    },
+    "name": "MetalDog.fbx",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "95C7DCD0-F839-4ADC-A77B-87F5C1C49680"
+                },
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "CFE144F0-B606-4549-9AB0-E97DB99CCB3A"
+                    }
+                },
+                "animation": {
+                    "uuid": "6831AD44-6A42-4C8D-B3ED-7F05FC014561"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

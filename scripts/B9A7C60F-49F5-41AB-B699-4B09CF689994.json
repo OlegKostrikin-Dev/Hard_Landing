@@ -1,0 +1,85 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B9A7C60F-49F5-41AB-B699-4B09CF689994"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 8300,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "8D3B0029-4056-4B67-A2E2-6489B945C92C"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "67C96FFB-38A2-472D-91DA-4B8E69D256BC"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "90EEF42D-4144-4E35-9038-14DF903899BF"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "23534B4F-3649-49F1-9476-D2EC59A20E99"
+                },
+                "AnimationType": "masterSound",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "EDAC59D3-4DB3-404D-8906-10CED438D286"
+            },
+            "ownerScriptId": {
+                "uuid": "B9A7C60F-49F5-41AB-B699-4B09CF689994"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DFAD8647-0D8C-43FC-AAC9-971196A9A982"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "5F48AB7F-37F8-4D67-B7DA-6A81461DFC4C"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

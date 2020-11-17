@@ -1,0 +1,128 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "7EB4C7B0-BEA1-42CC-8041-C6C50B4575CC"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 400,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DB96E848-5EAA-4B94-B43B-8652C21521C5"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "32A1D21B-735F-4F26-BBEC-DF7C1E42EA9D"
+                    }
+                },
+                "animation": {
+                    "uuid": "4FC70DB8-0B5E-4434-B315-42112CB14BE2"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "F88D8F11-ADB9-42A3-B3B5-D5590C39141A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DFAD8647-0D8C-43FC-AAC9-971196A9A982"
+                    }
+                },
+                "animation": {
+                    "uuid": "7C035B7F-603D-48DB-9C84-0F587B3F483D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7CD61800-E3DB-4176-8C24-0C63F5FFF04C"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "9B89F7A5-6A23-45F0-AED7-DBF8F0E322FF"
+                    }
+                },
+                "animation": {
+                    "uuid": "BDFEC939-D516-4770-AE2E-D27F3F38F6BD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "D2C57093-D8B9-4159-9BBC-AA91899B3A55"
+            },
+            "ownerScriptId": {
+                "uuid": "7EB4C7B0-BEA1-42CC-8041-C6C50B4575CC"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2BE76B43-3CDB-4A9C-8411-5C7555711116"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2BE76B43-3CDB-4A9C-8411-5C7555711116"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "2F7F054C-78A9-42CB-9AEA-200C5F19CCF1"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "32A1D21B-735F-4F26-BBEC-DF7C1E42EA9D"
+                },
+                "name": "r",
+                "type": "float",
+                "value": 1.0399999618530274
+            }
+        ]
+    }
+}

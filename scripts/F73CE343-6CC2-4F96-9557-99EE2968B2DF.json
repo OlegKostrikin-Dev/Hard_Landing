@@ -1,0 +1,57 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "F73CE343-6CC2-4F96-9557-99EE2968B2DF"
+    },
+    "name": "Enemies.fbx",
+    "enableOnAwake": false,
+    "duration": 5791,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "993805D5-5B75-458A-A3E4-1396DC4B38A6"
+                },
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B1B8920A-DC7F-4647-A67C-564B50479781"
+                    }
+                },
+                "animation": {
+                    "uuid": "52905107-D728-4CB3-A53A-B53122F20E3D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "ownerScriptId": {
+                "uuid": "F73CE343-6CC2-4F96-9557-99EE2968B2DF"
+            },
+            "eventType": "in",
+            "targetId": {
+                "uuid": "0FBD76F8-3497-4C83-A8B9-A27200539AC4"
+            },
+            "triggerZoneId": {
+                "uuid": "83B175D6-D7BA-40ED-A1ED-7D74A499EF9E"
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

@@ -1,0 +1,71 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "E2ADFE72-6D35-4B19-8867-D8AB1DD43D05"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 1996,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "520FF925-3EAA-44E0-871E-C3322A4CC366"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "248A35E2-B855-4B2A-AA71-9B7DBA0379FA"
+                    }
+                },
+                "animation": {
+                    "uuid": "85D7BF45-ED7B-4DB6-B943-400856672698"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "6D7C35CF-7A0D-4D0F-98DA-3DA328072586"
+            },
+            "ownerScriptId": {
+                "uuid": "E2ADFE72-6D35-4B19-8867-D8AB1DD43D05"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "791D7DE5-221A-4ADF-8715-66C530F833D3"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BEAA2694-4826-4DA6-A3A3-B469051510FB"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

@@ -1,0 +1,64 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "D3D0A708-B0DD-4A33-92C0-171F2920BEE9"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 1300,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A127C137-B3A7-486B-8E59-DD5A7C4D7188"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "101B4BFA-9B77-485E-99B6-1EBE6ABAE646"
+                    }
+                },
+                "animation": {
+                    "uuid": "470A95A7-37CA-41A3-9E71-EA7ADCC91471"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DBC2DCA1-3619-46F8-88EB-79C0831F0B79"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0A7FCE32-B9B2-4CEB-A846-24CF5B67EF30"
+                    }
+                },
+                "animation": {
+                    "uuid": "96ABCE9F-B0F8-472E-BE9A-465A463B607F"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

@@ -1,0 +1,91 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "51F237BB-E38A-499A-AE04-F5B9F585C0E9"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "24010138-7507-42D5-868F-0AD1B620AD31"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "65B97518-229E-41E7-A491-AFE4531D4D0C"
+                    }
+                },
+                "animation": {
+                    "uuid": "A99AAC1B-D93A-44B8-BA0B-EF16BF80C515"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AD91B24F-7EC3-404C-8CDD-100E9B6A3F06"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "52E4C9F8-E535-4596-94DC-E9B4E3D2A948"
+                    }
+                },
+                "animation": {
+                    "uuid": "674B4AF2-3E18-4E85-8453-1604D8258C30"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "92C19987-13DC-4302-B21B-2544689B1A96"
+            },
+            "ownerScriptId": {
+                "uuid": "51F237BB-E38A-499A-AE04-F5B9F585C0E9"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DFAD8647-0D8C-43FC-AAC9-971196A9A982"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "52E4C9F8-E535-4596-94DC-E9B4E3D2A948"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

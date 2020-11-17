@@ -1,0 +1,57 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "C0916ECD-77FD-477F-88C9-9CE70AA77F3A"
+    },
+    "name": "MetalDog.fbx",
+    "enableOnAwake": false,
+    "duration": 1958,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D856E695-E327-40F2-9349-AEFC14FF64EF"
+                },
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "629F3831-6EE8-4F69-9234-91B79B4C5C6D"
+                    }
+                },
+                "animation": {
+                    "uuid": "0D782A9B-ACDA-4B21-8BF4-6DBF27FFCD34"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "ownerScriptId": {
+                "uuid": "C0916ECD-77FD-477F-88C9-9CE70AA77F3A"
+            },
+            "eventType": "in",
+            "targetId": {
+                "uuid": "0FBD76F8-3497-4C83-A8B9-A27200539AC4"
+            },
+            "triggerZoneId": {
+                "uuid": "83B175D6-D7BA-40ED-A1ED-7D74A499EF9E"
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

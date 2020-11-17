@@ -1,0 +1,96 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "85338887-6436-4085-83B2-F586D8C8B316"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1EB8B00A-6BB9-4E7F-A749-7AB51ACEDD3E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "AB91F1B4-70B7-4DB2-86C1-0880AB9385B2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 7,
+                        "name": "Spot light-Yellow"
+                    }
+                },
+                "animation": {
+                    "uuid": "78D8F095-4356-4CDD-8D62-D2A3900B707E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "26D150A7-66FE-4173-9E56-31946323B310"
+            },
+            "ownerScriptId": {
+                "uuid": "85338887-6436-4085-83B2-F586D8C8B316"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "76B5A68D-02D4-44BA-A16B-DA7C9ED69419"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 8,
+                    "name": "Spot light-Blue",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Spot light-Blue-Sensor"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "76B5A68D-02D4-44BA-A16B-DA7C9ED69419"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 8,
+                    "name": "Spot light-Blue",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Spot light-Blue-Sensor"
+                    }
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

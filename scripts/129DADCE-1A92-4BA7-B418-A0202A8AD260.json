@@ -1,0 +1,91 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "129DADCE-1A92-4BA7-B418-A0202A8AD260"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 2000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3BE4DF91-D1E7-4919-A26C-C1EF03D13163"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "495E8796-CC8F-47C5-85A8-5AB9390D9BCE"
+                },
+                "AnimationType": "sun",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C60334A0-D9C7-43E1-8AEC-787CBFB5C361"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6ACB2492-21C4-453A-81A3-FFBEE79E0DBD"
+                    }
+                },
+                "animation": {
+                    "uuid": "56AE55C4-3FDF-4BA6-88A3-F162A081B863"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AEE5DBDF-66BD-47D5-A7DC-310C2F8D6F62"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "EE6217DB-52E6-4A14-A052-CA52BD7CBF6D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 11,
+                        "name": "Skybox",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Night"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A7B739E6-AA33-44AF-B2A7-40AB82B3CF7F"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

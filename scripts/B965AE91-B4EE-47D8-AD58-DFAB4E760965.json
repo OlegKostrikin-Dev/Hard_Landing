@@ -1,0 +1,58 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B965AE91-B4EE-47D8-AD58-DFAB4E760965"
+    },
+    "name": "EnemyRun",
+    "enableOnAwake": false,
+    "duration": 5000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E2B2484C-5E67-46B5-9C6D-AD962F060AB2"
+                },
+                "name": "Enemy",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A1B4B1E5-B648-4A52-A389-BA3A7A5AFFBF"
+                    }
+                },
+                "animation": {
+                    "uuid": "D34DD563-9F18-4A23-BF39-56CD71000B3C"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "ownerScriptId": {
+                "uuid": "B965AE91-B4EE-47D8-AD58-DFAB4E760965"
+            },
+            "eventType": "in",
+            "targetId": {
+                "uuid": "0FBD76F8-3497-4C83-A8B9-A27200539AC4"
+            },
+            "triggerZoneId": {
+                "uuid": "83B175D6-D7BA-40ED-A1ED-7D74A499EF9E"
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

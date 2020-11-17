@@ -1,0 +1,114 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "229F71D7-2BEB-4218-9650-AECAA41ADE98"
+    },
+    "name": "MetalDog.fbx",
+    "enableOnAwake": false,
+    "duration": 6275,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "19B4A3EB-A049-4F00-81E0-7328C3ADB050"
+                },
+                "name": "MetalDog.fbx_RootNode",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "8C586B7D-D6AE-4AF0-8DC3-9E20553B77A0"
+                    }
+                },
+                "animation": {
+                    "uuid": "0E61CD72-B491-4D6D-B978-DD456DDCBBF2"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BCD45A2D-580E-41CD-9B0D-442C8E761945"
+                },
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "EC7AA6B0-917E-4712-A426-A6AF5491B608"
+                    }
+                },
+                "animation": {
+                    "uuid": "55632770-3F18-46F9-935D-5F3B31448FC4"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5DAEF9AE-1A61-4C71-8FBA-582FB5517F66"
+                },
+                "name": "MetalDog_0",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FDD7B34D-9B24-416F-9683-4036B68FDD14"
+                    }
+                },
+                "animation": {
+                    "uuid": "C0FE75B0-3287-437B-BB4E-D10E5008D2B0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FB0D2348-1EF5-4484-853C-1B7FEFE31AB0"
+                },
+                "name": "Inserted animations",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "DC9ADDF9-EECE-485A-B80E-DA2D7FF32B99"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "ownerScriptId": {
+                "uuid": "229F71D7-2BEB-4218-9650-AECAA41ADE98"
+            },
+            "eventType": "in",
+            "targetId": {
+                "uuid": "0FBD76F8-3497-4C83-A8B9-A27200539AC4"
+            },
+            "triggerZoneId": {
+                "uuid": "83B175D6-D7BA-40ED-A1ED-7D74A499EF9E"
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

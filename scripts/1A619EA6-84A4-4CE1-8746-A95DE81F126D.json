@@ -1,0 +1,96 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "1A619EA6-84A4-4CE1-8746-A95DE81F126D"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C450C2FF-60AC-461F-B026-0BB3DC693FF4"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "123C170E-0AD6-4D29-BED3-89A8AFECC190"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Container Scene Spot-2"
+                    }
+                },
+                "animation": {
+                    "uuid": "AB5FC0A8-F29B-4014-AFCB-96AA1E8ED4A8"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "224C7B6C-7A24-4F2B-8197-AD8617E20320"
+            },
+            "ownerScriptId": {
+                "uuid": "1A619EA6-84A4-4CE1-8746-A95DE81F126D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "D5D9E67D-2A38-45FA-8F44-6DFB6A9959BD"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 2,
+                    "name": "Container Scene Spot-2",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Scene Spot 2 Sensor"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "D5D9E67D-2A38-45FA-8F44-6DFB6A9959BD"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 2,
+                    "name": "Container Scene Spot-2",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Scene Spot 2 Sensor"
+                    }
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

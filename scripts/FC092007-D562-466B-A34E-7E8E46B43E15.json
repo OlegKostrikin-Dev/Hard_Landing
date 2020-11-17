@@ -1,0 +1,50 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "FC092007-D562-466B-A34E-7E8E46B43E15"
+    },
+    "name": "VerticalRocket_Lighting_00_00",
+    "enableOnAwake": false,
+    "duration": 900,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D5D88B8F-3426-4D86-BC8D-D756C158BA9F"
+                },
+                "name": "Lighting",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C8CE61C6-B16C-43EB-862A-491B89AC4DCA"
+                    }
+                },
+                "animation": {
+                    "uuid": "F172343F-DB86-4D93-A766-F245530231B9"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StartTrigger",
+            "ownerScriptId": {
+                "uuid": "FC092007-D562-466B-A34E-7E8E46B43E15"
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}
