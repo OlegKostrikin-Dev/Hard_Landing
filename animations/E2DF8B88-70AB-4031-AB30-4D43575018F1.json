@@ -1,1 +1,248 @@
-{"@class":"Animation","id":{"uuid":"E2DF8B88-70AB-4031-AB30-4D43575018F1"},"tracks":[{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalpositionx('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"PositionXBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalpositiony('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"PositionYBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalpositionz('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"PositionZBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalrotationx('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"RotationXBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalrotationy('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"RotationYBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":0,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"getglobalrotationz('Wall Breaker Doll Camera Anchor')"},"time":0,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"RotationZBlendAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "E2DF8B88-70AB-4031-AB30-4D43575018F1"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalpositionx('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionXBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalpositiony('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionYBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalpositionz('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionZBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalrotationx('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "RotationXBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalrotationy('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "RotationYBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getglobalrotationz('Wall Breaker Doll Camera Anchor')"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "RotationZBlendAccessor"
+        }
+    ]
+}

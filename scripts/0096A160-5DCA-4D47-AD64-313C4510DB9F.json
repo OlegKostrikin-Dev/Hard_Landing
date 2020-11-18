@@ -1,1 +1,74 @@
-{"@class":"TimeLineScript","id":{"uuid":"0096A160-5DCA-4D47-AD64-313C4510DB9F"},"name":"TimeLineScript","enableOnAwake":false,"duration":0,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"EFA05F53-65B0-4B22-B9B1-741A83396C4F"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"066CB834-35FD-4300-A140-234C352097B2"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":3,"name":"Ligthing-1","subaddress":{"@class":"NodeRelativeAddressBase","index":3,"name":"HelmetLighting:Lighting"}}},"animation":{"uuid":"9A274D86-477A-4541-B443-BB373A3B8EAD"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"AnimationTrigger","id":{"uuid":"384024D0-7E00-46CE-A3A0-1B76583F985A"},"ownerScriptId":{"uuid":"0096A160-5DCA-4D47-AD64-313C4510DB9F"},"logicOperation":0,"resultType":0,"isInverted":false,"event":2,"bindingLink":{"@class":"BindingLink","targetId":{"uuid":"1D591917-B0C5-42D2-9217-CC2E9DA19B29"}}}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "0096A160-5DCA-4D47-AD64-313C4510DB9F"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EFA05F53-65B0-4B22-B9B1-741A83396C4F"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "066CB834-35FD-4300-A140-234C352097B2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Ligthing-1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "HelmetLighting:Lighting"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "9A274D86-477A-4541-B443-BB373A3B8EAD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "384024D0-7E00-46CE-A3A0-1B76583F985A"
+            },
+            "ownerScriptId": {
+                "uuid": "0096A160-5DCA-4D47-AD64-313C4510DB9F"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "1D591917-B0C5-42D2-9217-CC2E9DA19B29"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

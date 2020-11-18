@@ -1,1 +1,42 @@
-{"@class":"Animation","id":{"uuid":"6BD52281-7238-408C-A0F8-6F7B93330538"},"tracks":[{"@class":"BoolBehaviorTrack","clips":[{"@class":"BoolBehaviorClip","beginTime":0,"duration":200,"script":"BoolValueBehaviorClipScript","behavior":{"@class":"BoolDiscreteBehavior","frames":[{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"false"},"time":0},{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"false"},"time":200}]}}],"script":"BoolBehaviorTrackScript","accessor":"Object3DEnabledBlendAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "6BD52281-7238-408C-A0F8-6F7B93330538"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 200,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 0
+                            },
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 200
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "Object3DEnabledBlendAccessor"
+        }
+    ]
+}

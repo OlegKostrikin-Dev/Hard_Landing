@@ -1,0 +1,85 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "D39FEC14-6735-4949-B953-C85CC6F133C1"
+    },
+    "tracks": [
+        {
+            "@class": "SoundTrack",
+            "clips": [
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 1900,
+                    "duration": 1206,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "82C0C148-4F88-43AD-B68C-5F6D987DE8AF"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.8509804010391235,
+                            0.34117648005485537,
+                            0.34117648005485537
+                        ]
+                    }
+                },
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 200,
+                    "duration": 1206,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "82C0C148-4F88-43AD-B68C-5F6D987DE8AF"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.8509804010391235,
+                            0.34117648005485537,
+                            0.34117648005485537
+                        ]
+                    }
+                },
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 3300,
+                    "duration": 2755,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "D87C5272-C3CC-47F4-AD33-CB9F3BADBE17"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.8509804010391235,
+                            0.4431372582912445,
+                            0.34117648005485537
+                        ]
+                    }
+                }
+            ],
+            "script": "SoundTrackScript",
+            "accessor": "AudioSourceAccessor",
+            "volume": 1.0
+        }
+    ]
+}

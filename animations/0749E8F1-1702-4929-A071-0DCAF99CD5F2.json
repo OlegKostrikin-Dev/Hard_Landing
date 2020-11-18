@@ -1,1 +1,34 @@
-{"@class":"Animation","id":{"uuid":"0749E8F1-1702-4929-A071-0DCAF99CD5F2"},"tracks":[{"@class":"BoolBehaviorTrack","clips":[{"@class":"BoolBehaviorClip","beginTime":0,"duration":700,"script":"BoolValueBehaviorClipScript","behavior":{"@class":"BoolDiscreteBehavior","frames":[{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"false"},"time":700}]}}],"script":"BoolBehaviorTrackScript","accessor":"Object3DEnabledBlendAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "0749E8F1-1702-4929-A071-0DCAF99CD5F2"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 700,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 700
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "Object3DEnabledBlendAccessor"
+        }
+    ]
+}

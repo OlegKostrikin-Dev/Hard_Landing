@@ -1,1 +1,34 @@
-{"@class":"Animation","id":{"uuid":"E1F9CA0F-7D4C-4E90-95AA-FCB9098F7F6C"},"tracks":[{"@class":"BoolBehaviorTrack","clips":[{"@class":"BoolBehaviorClip","beginTime":0,"duration":0,"script":"BoolValueBehaviorClipScript","behavior":{"@class":"BoolDiscreteBehavior","frames":[{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"false"},"time":0}]}}],"script":"BoolBehaviorTrackScript","accessor":"Object3DEnabledBlendAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "E1F9CA0F-7D4C-4E90-95AA-FCB9098F7F6C"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "Object3DEnabledBlendAccessor"
+        }
+    ]
+}

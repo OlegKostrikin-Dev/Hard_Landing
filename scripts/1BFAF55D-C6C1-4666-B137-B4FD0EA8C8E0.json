@@ -1,1 +1,129 @@
-{"@class":"TimeLineScript","id":{"uuid":"1BFAF55D-C6C1-4666-B137-B4FD0EA8C8E0"},"name":"TimeLineScript","enableOnAwake":false,"duration":200,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"2273A82D-E313-4E52-A493-372BF93FD250"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"B5702066-6F6E-4B75-8E14-915BC7C52C22"}},"animation":{"uuid":"BA8E43F7-97BB-4900-84AB-48C7B150E541"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]},{"@class":"AnimationScript","id":{"uuid":"15235E92-7DBB-4D0B-8AA3-7EF364D23528"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"0B328845-3AD3-4C68-A906-46CCCDF36E1F"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"Boy","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"world_root","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"mixamorig_Hips","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"mixamorig_Spine","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"mixamorig_Spine1","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"mixamorig_Spine2","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"mixamorig_Neck","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"mixamorig_Head","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"First Person Camera Anchor"}}}}}}}}}},"animation":{"uuid":"4FB0EA8D-FB45-4338-B86F-C83C354AA0DD"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]},{"@class":"AnimationScript","id":{"uuid":"4C4A433C-8586-4F9A-9DB9-92325A95491C"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"EFC18B6F-A7DF-4002-946A-0D2F1F7A1C7E"}},"animation":{"uuid":"8CD0BEEF-5988-45E1-8271-CE5DB4D5936B"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "1BFAF55D-C6C1-4666-B137-B4FD0EA8C8E0"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 200,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "2273A82D-E313-4E52-A493-372BF93FD250"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B5702066-6F6E-4B75-8E14-915BC7C52C22"
+                    }
+                },
+                "animation": {
+                    "uuid": "BA8E43F7-97BB-4900-84AB-48C7B150E541"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "15235E92-7DBB-4D0B-8AA3-7EF364D23528"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0B328845-3AD3-4C68-A906-46CCCDF36E1F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Boy",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "world_root",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "mixamorig_Hips",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Spine2",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_Neck",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_Head",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "First Person Camera Anchor"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "4FB0EA8D-FB45-4338-B86F-C83C354AA0DD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "4C4A433C-8586-4F9A-9DB9-92325A95491C"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "EFC18B6F-A7DF-4002-946A-0D2F1F7A1C7E"
+                    }
+                },
+                "animation": {
+                    "uuid": "8CD0BEEF-5988-45E1-8271-CE5DB4D5936B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

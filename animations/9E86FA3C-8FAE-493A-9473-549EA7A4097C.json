@@ -1,1 +1,118 @@
-{"@class":"Animation","id":{"uuid":"9E86FA3C-8FAE-493A-9473-549EA7A4097C"},"tracks":[{"@class":"BoolBehaviorTrack","clips":[{"@class":"BoolBehaviorClip","beginTime":0,"duration":0,"script":"BoolValueBehaviorClipScript","behavior":{"@class":"BoolDiscreteBehavior","frames":[{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"true"},"time":0}]}}],"script":"BoolBehaviorTrackScript","accessor":"Object3DEnabledBlendAccessor"},{"@class":"FloatBehaviorTrack","clips":[{"@class":"FloatBehaviorClip","beginTime":0,"duration":2000,"script":"FloatValueBehaviorClipScript","behavior":{"@class":"FloatBezierBehavior","frames":[{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"tan(t)*m"},"time":0,"point1":{"values":[1.0,0.0]},"point2":{"values":[1.0,0.0]},"order":"constant","transition":true},{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"sin(t)*2*m"},"time":1000,"point1":{"values":[1.0,0.0]},"point2":{"values":[1.0,0.0]},"order":"constant","transition":true},{"@class":"FloatBezierKeyFrame","formula":{"@class":"FloatExpressionFormula","expression":"abs(sin(t)*100)"},"time":2000,"point1":{"values":[0.0,0.0]},"point2":{"values":[0.0,0.0]},"order":"linear","transition":true}]}}],"script":"FloatBehaviorTrackScript","accessor":"LightIntensityBlendAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "9E86FA3C-8FAE-493A-9473-549EA7A4097C"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "true"
+                                },
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "Object3DEnabledBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2000,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "tan(t)*m"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "sin(t)*2*m"
+                                },
+                                "time": 1000,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "abs(sin(t)*100)"
+                                },
+                                "time": 2000,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "LightIntensityBlendAccessor"
+        }
+    ]
+}

@@ -1,1 +1,39 @@
-{"@class":"Animation","id":{"uuid":"0F855D71-D540-4C58-8425-15B326694A41"},"tracks":[{"@class":"SoundTrack","clips":[{"@class":"SoundClip","beginTime":0,"duration":1066,"script":"SoundClipScript","behavior":{"@class":"SoundSampleBehavior","volume":1.0,"volumeModulation":0.0,"pitch":0.34382617473602297,"pitchModulation":0.0,"soundSampleId":{"uuid":"E79E1F0C-7C60-405D-A845-4A9A47D81757"}},"color":{"values":[0.8509804010391235,0.34117648005485537,0.34117648005485537]}}],"script":"SoundTrackScript","accessor":"AudioSourceAccessor","volume":1.0}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "0F855D71-D540-4C58-8425-15B326694A41"
+    },
+    "tracks": [
+        {
+            "@class": "SoundTrack",
+            "clips": [
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 0,
+                    "duration": 1066,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 0.34382617473602297,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "E79E1F0C-7C60-405D-A845-4A9A47D81757"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.8509804010391235,
+                            0.34117648005485537,
+                            0.34117648005485537
+                        ]
+                    }
+                }
+            ],
+            "script": "SoundTrackScript",
+            "accessor": "AudioSourceAccessor",
+            "volume": 1.0
+        }
+    ]
+}

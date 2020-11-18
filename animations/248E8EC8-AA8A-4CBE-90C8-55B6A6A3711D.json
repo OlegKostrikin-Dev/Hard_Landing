@@ -1,1 +1,93 @@
-{"@class":"Animation","id":{"uuid":"248E8EC8-AA8A-4CBE-90C8-55B6A6A3711D"},"tracks":[{"@class":"SoundTrack","clips":[{"@class":"SoundClip","beginTime":5700,"duration":3128,"script":"SoundClipScript","behavior":{"@class":"SoundSampleBehavior","volume":1.0,"volumeModulation":0.0,"pitch":1.0,"pitchModulation":0.0,"soundSampleId":{"uuid":"4E259E5B-CDB2-45AE-8E80-111117A8C0D3"}},"color":{"values":[0.3019607961177826,0.800000011920929,0.2705882489681244]}},{"@class":"SoundClip","beginTime":1400,"duration":3128,"script":"SoundClipScript","behavior":{"@class":"SoundSampleBehavior","volume":1.0,"volumeModulation":0.0,"pitch":1.0,"pitchModulation":0.0,"soundSampleId":{"uuid":"4E259E5B-CDB2-45AE-8E80-111117A8C0D3"}},"color":{"values":[0.3019607961177826,0.800000011920929,0.2705882489681244]}}],"script":"SoundTrackScript","accessor":"AudioSourceAccessor","volume":1.0},{"@class":"SoundTrack","clips":[{"@class":"SoundClip","beginTime":0,"duration":9667,"script":"SoundClipScript","behavior":{"@class":"SoundSampleBehavior","volume":1.0,"volumeModulation":0.0,"pitch":1.0,"pitchModulation":0.0,"soundSampleId":{"uuid":"7DF73470-A865-410A-854E-C54098CC2768"}},"color":{"values":[0.054901961237192157,0.7882353067398071,0.800000011920929]}}],"script":"SoundTrackScript","accessor":"AudioSourceAccessor","volume":1.0}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "248E8EC8-AA8A-4CBE-90C8-55B6A6A3711D"
+    },
+    "tracks": [
+        {
+            "@class": "SoundTrack",
+            "clips": [
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 5700,
+                    "duration": 3128,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "4E259E5B-CDB2-45AE-8E80-111117A8C0D3"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.3019607961177826,
+                            0.800000011920929,
+                            0.2705882489681244
+                        ]
+                    }
+                },
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 1400,
+                    "duration": 3128,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "4E259E5B-CDB2-45AE-8E80-111117A8C0D3"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.3019607961177826,
+                            0.800000011920929,
+                            0.2705882489681244
+                        ]
+                    }
+                }
+            ],
+            "script": "SoundTrackScript",
+            "accessor": "AudioSourceAccessor",
+            "volume": 1.0
+        },
+        {
+            "@class": "SoundTrack",
+            "clips": [
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 0,
+                    "duration": 9667,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "7DF73470-A865-410A-854E-C54098CC2768"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.054901961237192157,
+                            0.7882353067398071,
+                            0.800000011920929
+                        ]
+                    }
+                }
+            ],
+            "script": "SoundTrackScript",
+            "accessor": "AudioSourceAccessor",
+            "volume": 1.0
+        }
+    ]
+}

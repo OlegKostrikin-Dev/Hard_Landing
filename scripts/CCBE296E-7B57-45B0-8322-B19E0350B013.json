@@ -1,1 +1,54 @@
-{"@class":"TimeLineScript","id":{"uuid":"CCBE296E-7B57-45B0-8322-B19E0350B013"},"name":"TimeLineScript","enableOnAwake":false,"duration":0,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"BC3757E2-3FF3-42DF-AA37-D69A78F5729C"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink"},"animation":{"uuid":"D9AF0DCD-F446-4924-8585-5F5228936A88"},"AnimationType":"sun","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"StartTrigger","id":{"uuid":"822A25F9-0E5E-4BB0-B9DD-7F54E2A06435"},"ownerScriptId":{"uuid":"CCBE296E-7B57-45B0-8322-B19E0350B013"},"logicOperation":0,"resultType":0,"isInverted":false}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "CCBE296E-7B57-45B0-8322-B19E0350B013"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BC3757E2-3FF3-42DF-AA37-D69A78F5729C"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "D9AF0DCD-F446-4924-8585-5F5228936A88"
+                },
+                "AnimationType": "sun",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StartTrigger",
+            "id": {
+                "uuid": "822A25F9-0E5E-4BB0-B9DD-7F54E2A06435"
+            },
+            "ownerScriptId": {
+                "uuid": "CCBE296E-7B57-45B0-8322-B19E0350B013"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false
+        }
+    ],
+    "animation_disabled_list": []
+}

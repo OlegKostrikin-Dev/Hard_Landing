@@ -1,1 +1,71 @@
-{"@class":"TimeLineScript","id":{"uuid":"77A4F83C-6FD5-4171-8A71-6C1A790ABA7D"},"name":"TimeLineScript","enableOnAwake":false,"duration":0,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"E065B955-FDAD-41BD-B259-693BB22B9792"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"2697879E-ED3F-4582-B40D-56FD94BCCDCA"}},"animation":{"uuid":"51CF863E-FD32-4EFB-BB86-0CBE44147536"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"CollisionTrigger","id":{"uuid":"7FCF36AA-4BAE-4C60-AF7E-FB7F607C24B4"},"ownerScriptId":{"uuid":"77A4F83C-6FD5-4171-8A71-6C1A790ABA7D"},"logicOperation":0,"resultType":0,"isInverted":false,"eventType":"in","targetBindingLink":{"@class":"BindingLink","targetId":{"uuid":"DFAD8647-0D8C-43FC-AAC9-971196A9A982"}},"zoneBindingLink":{"@class":"BindingLink","targetId":{"uuid":"13700532-6B70-4253-81F2-A35B4432C3BA"}},"allowed":false}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "77A4F83C-6FD5-4171-8A71-6C1A790ABA7D"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E065B955-FDAD-41BD-B259-693BB22B9792"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "2697879E-ED3F-4582-B40D-56FD94BCCDCA"
+                    }
+                },
+                "animation": {
+                    "uuid": "51CF863E-FD32-4EFB-BB86-0CBE44147536"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "7FCF36AA-4BAE-4C60-AF7E-FB7F607C24B4"
+            },
+            "ownerScriptId": {
+                "uuid": "77A4F83C-6FD5-4171-8A71-6C1A790ABA7D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DFAD8647-0D8C-43FC-AAC9-971196A9A982"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "13700532-6B70-4253-81F2-A35B4432C3BA"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

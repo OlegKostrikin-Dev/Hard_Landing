@@ -1,1 +1,74 @@
-{"@class":"TimeLineScript","id":{"uuid":"552248D2-61F7-42F5-ADA1-386AF1F15DA5"},"name":"TimeLineScript","enableOnAwake":false,"duration":500,"loop":true,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"50B9873F-7E7F-481B-996F-A0FA3CF25F3C"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"6A23760C-F6B7-43D7-A77B-15F471BC5FBA"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":11,"name":"2","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"FX_TrapLighting_01-T"}}},"animation":{"uuid":"19340D42-AC9B-4522-BD51-66815D2A5FD3"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"AnimationTrigger","id":{"uuid":"98A56D93-0573-45DD-BFC9-0E211CF83D7C"},"ownerScriptId":{"uuid":"552248D2-61F7-42F5-ADA1-386AF1F15DA5"},"logicOperation":0,"resultType":0,"isInverted":false,"event":3,"bindingLink":{"@class":"BindingLink","targetId":{"uuid":"351CC27A-AE50-4DB0-8106-EFB4B5F21270"}}}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "552248D2-61F7-42F5-ADA1-386AF1F15DA5"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 500,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "50B9873F-7E7F-481B-996F-A0FA3CF25F3C"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6A23760C-F6B7-43D7-A77B-15F471BC5FBA"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 11,
+                        "name": "2",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "FX_TrapLighting_01-T"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "19340D42-AC9B-4522-BD51-66815D2A5FD3"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "98A56D93-0573-45DD-BFC9-0E211CF83D7C"
+            },
+            "ownerScriptId": {
+                "uuid": "552248D2-61F7-42F5-ADA1-386AF1F15DA5"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "351CC27A-AE50-4DB0-8106-EFB4B5F21270"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

@@ -1,1 +1,39 @@
-{"@class":"Animation","id":{"uuid":"A19A4590-F15F-45ED-9E59-92E1E5B0BE8D"},"tracks":[{"@class":"TimeLineTrack","clips":[{"@class":"TimeLineClip","beginTime":0,"duration":2000,"script":"TimeLineClipScript","behavior":{"@class":"TimeLineBehavior","speed":1.0,"weights":{}},"bindinglink":{"@class":"BindingLink","targetId":{"uuid":"CD48CEE3-5B55-4DC7-8C2E-79AFB8935D06"}},"color":{"values":[0.0,0.0,0.0]}}],"script":"TimeLineTrackScript","accessor":"TimeLineAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "A19A4590-F15F-45ED-9E59-92E1E5B0BE8D"
+    },
+    "tracks": [
+        {
+            "@class": "TimeLineTrack",
+            "clips": [
+                {
+                    "@class": "TimeLineClip",
+                    "beginTime": 0,
+                    "duration": 2000,
+                    "script": "TimeLineClipScript",
+                    "behavior": {
+                        "@class": "TimeLineBehavior",
+                        "speed": 1.0,
+                        "weights": {}
+                    },
+                    "bindinglink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "CD48CEE3-5B55-4DC7-8C2E-79AFB8935D06"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ],
+            "script": "TimeLineTrackScript",
+            "accessor": "TimeLineAccessor"
+        }
+    ]
+}

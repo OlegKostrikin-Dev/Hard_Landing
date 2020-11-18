@@ -1,1 +1,164 @@
-{"@class":"TimeLineScript","id":{"uuid":"B0B2C91C-9AEC-4884-97D5-87CA705AC5FE"},"name":"TimeLineScript","enableOnAwake":false,"duration":15000,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":true,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"E58A21B0-260E-4EC2-84C9-C1E85E7EE10B"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"0BF5AF1E-12A5-4931-A3DC-98A898222782"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":2,"name":"MovingPlatform_00_m","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"world_root","subaddress":{"@class":"NodeRelativeAddressBase","index":0,"name":"Platform_00_00"}}}},"animation":{"uuid":"C21CA7F4-A200-40D6-B02C-3E416D27BA52"},"AnimationType":"object3D","is_imported":true,"track_disabled_list":[]},{"@class":"AnimationScript","id":{"uuid":"1545394D-ABA8-45EC-9335-BE98ECA7F0DB"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"F6E73653-29C2-44F7-8D95-347A5F319907"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":2,"name":"MovingPlatform_00_m","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"world_root","subaddress":{"@class":"NodeRelativeAddressBase","index":2,"name":"Platform_00_01"}}}},"animation":{"uuid":"07A5DE02-13CC-4B96-947F-C6CCE5BAFF40"},"AnimationType":"object3D","is_imported":true,"track_disabled_list":[]},{"@class":"AnimationScript","id":{"uuid":"D81E09C7-5195-44D2-9154-C103CFDDE4F4"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"0781DA79-4956-4519-B75B-27F34194D4CD"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":2,"name":"MovingPlatform_00_m","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"world_root","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"UBX_Platform_00_00"}}}},"animation":{"uuid":"BBD5F4EA-F484-4F04-8BA1-3DE79E8FBE43"},"AnimationType":"object3D","is_imported":true,"track_disabled_list":[]},{"@class":"AnimationScript","id":{"uuid":"A23A0A1B-3187-42A9-B866-180981992540"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"06C72651-6F28-427F-9EBE-2AA02527FAF3"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":2,"name":"MovingPlatform_00_m","subaddress":{"@class":"NodeRelativeAddressBase","index":1,"name":"world_root","subaddress":{"@class":"NodeRelativeAddressBase","index":3,"name":"UBX_Platform_00_01"}}}},"animation":{"uuid":"7CD6D677-E0F4-4B43-9009-85FF39B164E6"},"AnimationType":"object3D","is_imported":true,"track_disabled_list":[]}]},"triggers":[],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B0B2C91C-9AEC-4884-97D5-87CA705AC5FE"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 15000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E58A21B0-260E-4EC2-84C9-C1E85E7EE10B"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0BF5AF1E-12A5-4931-A3DC-98A898222782"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "MovingPlatform_00_m",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "world_root",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Platform_00_00"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C21CA7F4-A200-40D6-B02C-3E416D27BA52"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1545394D-ABA8-45EC-9335-BE98ECA7F0DB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F6E73653-29C2-44F7-8D95-347A5F319907"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "MovingPlatform_00_m",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "world_root",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Platform_00_01"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "07A5DE02-13CC-4B96-947F-C6CCE5BAFF40"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D81E09C7-5195-44D2-9154-C103CFDDE4F4"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0781DA79-4956-4519-B75B-27F34194D4CD"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "MovingPlatform_00_m",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "world_root",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "UBX_Platform_00_00"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "BBD5F4EA-F484-4F04-8BA1-3DE79E8FBE43"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A23A0A1B-3187-42A9-B866-180981992540"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "06C72651-6F28-427F-9EBE-2AA02527FAF3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "MovingPlatform_00_m",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "world_root",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "UBX_Platform_00_01"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7CD6D677-E0F4-4B43-9009-85FF39B164E6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [],
+    "animation_disabled_list": []
+}

@@ -1,1 +1,60 @@
-{"@class":"Animation","id":{"uuid":"EEC905FD-6F6F-454E-85CD-97E28CC73C39"},"tracks":[{"@class":"BoolBehaviorTrack","clips":[{"@class":"BoolBehaviorClip","beginTime":0,"duration":6600,"script":"BoolValueBehaviorClipScript","behavior":{"@class":"BoolDiscreteBehavior","frames":[{"@class":"BoolKeyFrame","formula":{"@class":"BoolExpressionFormula","expression":"false"},"time":6600}]}}],"script":"BoolBehaviorTrackScript","accessor":"ComponentPhysBodyEnabledAccessor"},{"@class":"StringBehaviorTrack","clips":[{"@class":"StringBehaviorClip","beginTime":0,"duration":3200,"script":"StringValueBehaviorClipScript","behavior":{"@class":"StringDiscreteBehavior","frames":[{"@class":"StringKeyFrame","formula":{"@class":"StringExpressionFormula","expression":"return ['rigidBody']"},"time":3200}]}}],"script":"StringBehaviorTrackScript","accessor":"RigidBodyTypeAccessor"}]}
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "EEC905FD-6F6F-454E-85CD-97E28CC73C39"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 6600,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 6600
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "ComponentPhysBodyEnabledAccessor"
+        },
+        {
+            "@class": "StringBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "StringBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 3200,
+                    "script": "StringValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "StringDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "StringKeyFrame",
+                                "formula": {
+                                    "@class": "StringExpressionFormula",
+                                    "expression": "return ['rigidBody']"
+                                },
+                                "time": 3200
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "StringBehaviorTrackScript",
+            "accessor": "RigidBodyTypeAccessor"
+        }
+    ]
+}

@@ -1,1 +1,69 @@
-{"@class":"TimeLineScript","id":{"uuid":"26961FB4-A14C-4F90-B40F-14A9E12BD45E"},"name":"TimeLineScript","enableOnAwake":false,"duration":300,"loop":true,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"C1FBA78E-2576-4ECA-B1A2-3FC78183643A"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"DF417D89-0BFF-4F23-AA82-4AA6021CEF6C"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":4,"name":"Light"}},"animation":{"uuid":"7A67F4FD-A63E-4BDF-9EAB-B69D19168AC4"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"AnimationTrigger","id":{"uuid":"095BD2C9-EDBF-4EBD-8974-6A242E0D6FEB"},"ownerScriptId":{"uuid":"26961FB4-A14C-4F90-B40F-14A9E12BD45E"},"logicOperation":0,"resultType":0,"isInverted":false,"event":3,"bindingLink":{"@class":"BindingLink","targetId":{"uuid":"44013B97-B4C5-4828-976D-56E495B4D23F"}}}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "26961FB4-A14C-4F90-B40F-14A9E12BD45E"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 300,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C1FBA78E-2576-4ECA-B1A2-3FC78183643A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DF417D89-0BFF-4F23-AA82-4AA6021CEF6C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Light"
+                    }
+                },
+                "animation": {
+                    "uuid": "7A67F4FD-A63E-4BDF-9EAB-B69D19168AC4"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "095BD2C9-EDBF-4EBD-8974-6A242E0D6FEB"
+            },
+            "ownerScriptId": {
+                "uuid": "26961FB4-A14C-4F90-B40F-14A9E12BD45E"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "44013B97-B4C5-4828-976D-56E495B4D23F"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

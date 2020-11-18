@@ -1,1 +1,76 @@
-{"@class":"TimeLineScript","id":{"uuid":"E5230B54-7765-4992-B5ED-938E25540ED9"},"name":"TimeLineScript","enableOnAwake":false,"duration":0,"loop":false,"jumpToFirstFrameAtEnd":false,"speed":1.0,"weight":1.0,"loopStartTime":0,"loopDuration":0,"is_imported":false,"type":"user","scripts":{"@class":"StdListRuntimeScript","list":[{"@class":"AnimationScript","id":{"uuid":"431793E8-E952-478B-8DBE-FF3D189FE2A2"},"name":"AnimationScript","enableOnAwake":false,"OwnerLink":{"@class":"BindingLink","targetId":{"uuid":"CC6A6265-C7A2-4AF4-BEE0-C42904CBEA9B"},"targetRelativeAddress":{"@class":"NodeRelativeAddressBase","index":10,"name":"Spot light"}},"animation":{"uuid":"26A21AC1-0419-4E87-BF7B-A71072D54BAA"},"AnimationType":"object3D","is_imported":false,"track_disabled_list":[]}]},"triggers":[{"@class":"CollisionTrigger","id":{"uuid":"F733DEA2-D520-40F3-9CCC-D72AAB536468"},"ownerScriptId":{"uuid":"E5230B54-7765-4992-B5ED-938E25540ED9"},"logicOperation":0,"resultType":0,"isInverted":false,"eventType":"out","targetBindingLink":{"@class":"BindingLink","targetId":{"uuid":"2B757B54-9BD6-47CD-8D57-73E10CE3E059"}},"zoneBindingLink":{"@class":"BindingLink","targetId":{"uuid":"2B757B54-9BD6-47CD-8D57-73E10CE3E059"}},"allowed":false}],"animation_disabled_list":[]}
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "E5230B54-7765-4992-B5ED-938E25540ED9"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "431793E8-E952-478B-8DBE-FF3D189FE2A2"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "CC6A6265-C7A2-4AF4-BEE0-C42904CBEA9B"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 10,
+                        "name": "Spot light"
+                    }
+                },
+                "animation": {
+                    "uuid": "26A21AC1-0419-4E87-BF7B-A71072D54BAA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "F733DEA2-D520-40F3-9CCC-D72AAB536468"
+            },
+            "ownerScriptId": {
+                "uuid": "E5230B54-7765-4992-B5ED-938E25540ED9"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2B757B54-9BD6-47CD-8D57-73E10CE3E059"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "2B757B54-9BD6-47CD-8D57-73E10CE3E059"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}
