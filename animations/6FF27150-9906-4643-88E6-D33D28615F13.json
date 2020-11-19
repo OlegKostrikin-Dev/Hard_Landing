@@ -294,7 +294,7 @@
                 {
                     "@class": "BoolBehaviorClip",
                     "beginTime": 0,
-                    "duration": 0,
+                    "duration": 100,
                     "script": "BoolValueBehaviorClipScript",
                     "behavior": {
                         "@class": "BoolDiscreteBehavior",
@@ -306,6 +306,14 @@
                                     "expression": ""
                                 },
                                 "time": 0
+                            },
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 100
                             }
                         ]
                     }

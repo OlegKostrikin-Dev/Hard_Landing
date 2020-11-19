@@ -95,7 +95,7 @@
                     "uuid": "7CC5B2E7-1C3A-4186-ACE9-AF1A3036CC62"
                 },
                 "name": "Tower Camera Anchor",
-                "enabled": false,
+                "enabled": true,
                 "visible": false,
                 "hitVisible": true,
                 "colliders": [
@@ -1086,7 +1086,7 @@
                 }
             },
             "children": [
-                "0B328845-3AD3-4C68-A906-46CCCDF36E1F",
+                "0ECEA7A4-8A53-440D-B4B7-81E780C4A913",
                 "E5E6F894-6FF1-47E5-844C-E1DEA4673D0D",
                 "87C4D706-F2DB-4CB8-8D3F-30E78E0BE100"
             ]
@@ -1096,24 +1096,24 @@
             "object3D": {
                 "@class": "BaseObject3D",
                 "id": {
-                    "uuid": "0B328845-3AD3-4C68-A906-46CCCDF36E1F"
+                    "uuid": "0ECEA7A4-8A53-440D-B4B7-81E780C4A913"
                 },
-                "name": "MCFirst Person Camera Anchor",
+                "name": "FPA-FUCK",
                 "enabled": false,
-                "visible": false,
+                "visible": true,
                 "hitVisible": true,
                 "colliders": [
                     {
                         "@class": "BaseComponentCollider",
                         "colliderId": {
-                            "uuid": "26900408-F89B-4FC3-824B-87D22BFE8141"
+                            "uuid": "4C43851C-3E16-45BE-805C-21F42122E359"
                         }
                     }
                 ],
                 "rigidBody": {
                     "@class": "BaseComponentPhysBody",
                     "rigidBodyId": {
-                        "uuid": "0E060ED1-B50D-4E36-9E51-53E3C524B2FC"
+                        "uuid": "22A7F8D6-70D1-4163-9454-3018C8DE7963"
                     },
                     "isEnabled": true
                 },
@@ -1121,21 +1121,21 @@
                     "@class": "BaseComponentTransformable",
                     "localTransforms": {
                         "values": [
-                            -28.5792179107666,
-                            -0.000004315201749705011,
-                            -0.04988151416182518,
+                            -49.9998664855957,
+                            0.000004372845523903379,
+                            -0.08726631850004196,
                             0.0,
-                            0.022635754197835923,
-                            25.4574031829834,
-                            -12.97117805480957,
+                            0.039622098207473758,
+                            44.55039978027344,
+                            -22.699535369873048,
                             0.0,
-                            0.04442237690091133,
-                            -12.967611312866211,
-                            -25.4503231048584,
+                            0.07775291055440903,
+                            -22.69951629638672,
+                            -44.550228118896487,
                             0.0,
-                            3.4296298027038576,
-                            14.695856094360352,
-                            35.82557678222656,
+                            3.430000066757202,
+                            14.699999809265137,
+                            35.83000183105469,
                             1.0
                         ]
                     }
@@ -1147,63 +1147,8 @@
                 }
             },
             "children": [
-                "31444499-C722-41AC-A364-FD33243B79B5",
                 "75F26D39-369B-4490-8631-2F7BDE07A389"
             ]
-        },
-        {
-            "@class": "BaseNode",
-            "object3D": {
-                "@class": "BaseObject3D",
-                "id": {
-                    "uuid": "31444499-C722-41AC-A364-FD33243B79B5"
-                },
-                "name": "Box",
-                "enabled": false,
-                "visible": true,
-                "hitVisible": false,
-                "geometry": {
-                    "@class": "BaseComponentGeometry",
-                    "meshId": {
-                        "uuid": "A285890D-1263-4F02-8C67-C4B31263FB05"
-                    }
-                },
-                "material": {
-                    "@class": "BaseComponentMaterial",
-                    "materialId": {
-                        "uuid": "85336F6E-F5C1-48E0-9E37-CF8AD248FC28"
-                    },
-                    "mapsStates": 0
-                },
-                "transform": {
-                    "@class": "BaseComponentTransformable",
-                    "localTransforms": {
-                        "values": [
-                            0.9999991655349731,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ]
-                    }
-                },
-                "metadata": {
-                    "importedIdentifier": "",
-                    "importedName": "",
-                    "isBone": false
-                }
-            }
         },
         {
             "@class": "BaseNode",
@@ -1220,21 +1165,21 @@
                     "@class": "BaseComponentTransformable",
                     "localTransforms": {
                         "values": [
-                            4.55217981338501,
+                            -0.9101590514183044,
+                            0.050549015402793887,
+                            2.437058687210083,
                             0.0,
+                            -0.07257869094610214,
+                            0.996222972869873,
+                            -0.04776916280388832,
                             0.0,
+                            -2.7999157905578615,
+                            -0.2538725733757019,
+                            -1.0404082536697388,
                             0.0,
-                            0.0,
-                            1.7500063180923463,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0,
-                            5.247468948364258,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0,
+                            -125.64178466796875,
+                            19.040346145629884,
+                            0.25985270738601687,
                             1.0
                         ]
                     }
@@ -1387,11 +1332,11 @@
                     "@class": "BaseComponentTransformable",
                     "localTransforms": {
                         "values": [
-                            1.688376784324646,
-                            3.2596267907081257e-9,
-                            -0.460304319858551,
+                            1.6883769035339356,
+                            1.3038508051010922e-8,
+                            -0.4603043496608734,
                             0.0,
-                            -0.10722169280052185,
+                            -0.10722168534994126,
                             1.7018623352050782,
                             -0.3932845890522003,
                             0.0,

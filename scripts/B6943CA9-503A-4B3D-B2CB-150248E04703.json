@@ -120,6 +120,26 @@
             {
                 "@class": "AnimationScript",
                 "id": {
+                    "uuid": "C95124DE-E699-4C4E-9A8D-F0E3B2B7410E"
+                },
+                "name": "MainCamera",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B5702066-6F6E-4B75-8E14-915BC7C52C22"
+                    }
+                },
+                "animation": {
+                    "uuid": "ECFEB1D4-A2AA-468D-AAC0-73DBF10584FD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
                     "uuid": "98B4FE08-DD4B-4B33-9637-C9769368EDA3"
                 },
                 "name": "AnimationScript",
