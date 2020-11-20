@@ -1,0 +1,71 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "A6E6D921-2CB6-4DEB-B552-FC9A9B4EFFBF"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "72869B95-3AB3-43B7-980B-DA8DD590BFE8"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B128F619-30D8-4CBD-B346-FE5CE2E923BF"
+                    }
+                },
+                "animation": {
+                    "uuid": "41447870-2E26-444A-9925-CD07F90EFAB8"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "74A2655E-2FDA-4C43-B4FF-3D105FB257D1"
+            },
+            "ownerScriptId": {
+                "uuid": "A6E6D921-2CB6-4DEB-B552-FC9A9B4EFFBF"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "55B9E7AA-0B20-4C65-9D47-EC958D03D922"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "55B9E7AA-0B20-4C65-9D47-EC958D03D922"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

@@ -1,0 +1,535 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "5AFE8A08-AA55-4847-9058-DC9033D5FD5F"
+            },
+            "name": "Death System",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        50.0,
+                        -6.617444900424221e-22,
+                        -9.094947017729282e-13,
+                        0.0,
+                        6.617444900424221e-22,
+                        50.0,
+                        -1.3552527156068805e-20,
+                        0.0,
+                        9.094947017729282e-13,
+                        1.3552527156068805e-20,
+                        50.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.053200252154056e-8,
+                        3.637978373410844e-12,
+                        0.5,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.5,
+                        0.000043066345824627209,
+                        -5.9604641222676949e-8,
+                        0.0,
+                        -82.65156555175781,
+                        11.724303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false,
+        "children": [
+            "C05C2D6C-CD2A-4F8E-B445-E469754122A8",
+            "BCE688FD-DC4B-476F-B2E0-66ABFA37D6C9"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "C05C2D6C-CD2A-4F8E-B445-E469754122A8"
+            },
+            "name": "Death-1",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        2.0194839173657902e-28,
+                        0.0,
+                        0.0,
+                        -2.646957765330515e-23,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.053200252154056e-8,
+                        3.637978373410844e-12,
+                        0.5,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.5,
+                        0.000043066345824627209,
+                        -5.9604641222676949e-8,
+                        0.0,
+                        -82.65156555175781,
+                        11.724303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false,
+        "children": [
+            "05392202-F428-4904-99D3-FBB783F2AA60"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "05392202-F428-4904-99D3-FBB783F2AA60"
+            },
+            "name": "Death-1",
+            "enabled": true,
+            "visible": false,
+            "hitVisible": true,
+            "colliders": [
+                {
+                    "@class": "BaseComponentCollider",
+                    "colliderId": {
+                        "uuid": "5A5A9A7B-C22E-47DB-A764-9DA3A4451708"
+                    }
+                }
+            ],
+            "rigidBody": {
+                "@class": "BaseComponentPhysBody",
+                "rigidBodyId": {
+                    "uuid": "576A210C-76E4-4A45-A9C5-425306EFB4FA"
+                },
+                "isEnabled": true
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        -2.524354896707238e-29,
+                        -0.0,
+                        0.0,
+                        2.524354896707238e-29,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.5,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.053200252154056e-8,
+                        3.637978373410844e-12,
+                        0.5,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.5,
+                        0.000043066345824627209,
+                        -5.9604641222676949e-8,
+                        0.0,
+                        -82.65154266357422,
+                        11.974303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false,
+        "children": [
+            "FEE100F7-5CEE-4B9A-929F-D6A2827616BC"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "FEE100F7-5CEE-4B9A-929F-D6A2827616BC"
+            },
+            "name": "Box",
+            "enabled": false,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "574CAEC1-0A7D-4981-8C8B-BA98AD50F8A4"
+                },
+                "static": false,
+                "shadowCast": false,
+                "shadowReceive": false
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "F5F6E673-2225-40B5-98AF-1C376480F020"
+                },
+                "mapsStates": 0
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.9999998807907105,
+                        -2.524354595780684e-29,
+                        -0.0,
+                        0.0,
+                        2.524354896707238e-29,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        0.9999997615814209,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.05319954161132e-8,
+                        3.637977939729975e-12,
+                        0.4999999403953552,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.49999988079071047,
+                        0.000043066334910690787,
+                        -5.960462701182223e-8,
+                        0.0,
+                        -82.65154266357422,
+                        11.974303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "BCE688FD-DC4B-476F-B2E0-66ABFA37D6C9"
+            },
+            "name": "Death-2",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        2.0194839173657902e-28,
+                        0.0,
+                        0.0,
+                        -2.646957765330515e-23,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.053200252154056e-8,
+                        3.637978373410844e-12,
+                        0.5,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.5,
+                        0.000043066345824627209,
+                        -5.9604641222676949e-8,
+                        0.0,
+                        -82.65156555175781,
+                        11.724303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false,
+        "children": [
+            "EAA1FBBB-600B-4AEC-B5E3-FB58735AEAA5"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "EAA1FBBB-600B-4AEC-B5E3-FB58735AEAA5"
+            },
+            "name": "Death-2",
+            "enabled": true,
+            "visible": false,
+            "hitVisible": true,
+            "colliders": [
+                {
+                    "@class": "BaseComponentCollider",
+                    "colliderId": {
+                        "uuid": "9D44618B-CFFF-4102-B1AD-AD5F2394EBEB"
+                    }
+                }
+            ],
+            "rigidBody": {
+                "@class": "BaseComponentPhysBody",
+                "rigidBodyId": {
+                    "uuid": "D2250C6D-FD5C-4F09-8DE6-11B6E10AF6AD"
+                },
+                "isEnabled": true
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        -2.524354896707238e-29,
+                        -0.0,
+                        0.0,
+                        2.524354896707238e-29,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.5,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.053200252154056e-8,
+                        3.637978373410844e-12,
+                        0.5,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.5,
+                        0.000043066345824627209,
+                        -5.9604641222676949e-8,
+                        0.0,
+                        -82.6515884399414,
+                        11.474303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false,
+        "children": [
+            "BE8FE31A-234B-493C-B0A8-1B27B3A192FD"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "BE8FE31A-234B-493C-B0A8-1B27B3A192FD"
+            },
+            "name": "Box",
+            "enabled": false,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "574CAEC1-0A7D-4981-8C8B-BA98AD50F8A4"
+                },
+                "static": false,
+                "shadowCast": false,
+                "shadowReceive": false
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "7417942C-951D-4242-A799-78A9C3A9C239"
+                },
+                "mapsStates": 0
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.9999998807907105,
+                        -2.524354595780684e-29,
+                        -0.0,
+                        0.0,
+                        2.524354896707238e-29,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        0.9999997615814209,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -6.05319954161132e-8,
+                        3.637977939729975e-12,
+                        0.4999999403953552,
+                        0.0,
+                        0.0000430663421866484,
+                        0.5,
+                        3.637978807091713e-12,
+                        0.0,
+                        -0.49999988079071047,
+                        0.000043066334910690787,
+                        -5.960462701182223e-8,
+                        0.0,
+                        -82.6515884399414,
+                        11.474303245544434,
+                        -0.8613219261169434,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "1F4A3B36-B39B-43E7-BBB6-D773B04BF6FC"
+        },
+        "is_asset_root": false
+    }
+]
