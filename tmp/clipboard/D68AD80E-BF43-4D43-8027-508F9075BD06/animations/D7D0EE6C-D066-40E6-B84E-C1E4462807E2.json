@@ -1,0 +1,34 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "D7D0EE6C-D066-40E6-B84E-C1E4462807E2"
+    },
+    "tracks": [
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "false"
+                                },
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "Object3DEnabledBlendAccessor"
+        }
+    ]
+}

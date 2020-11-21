@@ -1,0 +1,64 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "D311A17F-5030-4AE3-87CC-D888984DCC7A"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 40000,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "8BB212A6-DD65-4D40-A4F9-B64C542AA731"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C2FDB977-1DAD-4CEE-9A63-5A3E1C6CCACF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Black Hole"
+                    }
+                },
+                "animation": {
+                    "uuid": "299070BD-8793-46E8-87DF-ADB830F14A93"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": [
+                    2
+                ]
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StartTrigger",
+            "id": {
+                "uuid": "3793C3DE-B211-4F54-8E76-3D5E46E9CEEE"
+            },
+            "ownerScriptId": {
+                "uuid": "D311A17F-5030-4AE3-87CC-D888984DCC7A"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false
+        }
+    ],
+    "animation_disabled_list": []
+}

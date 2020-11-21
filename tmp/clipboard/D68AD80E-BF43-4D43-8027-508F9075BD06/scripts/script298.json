@@ -1,0 +1,113 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "16F3646A-1D97-4E8B-8F11-3F6A9AE6C9B3"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 300,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BB05C9E4-9857-4693-A6D5-28C15A7D68C0"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0E721EA1-5763-4F2B-A100-7CF939287E44"
+                    }
+                },
+                "animation": {
+                    "uuid": "B9BCFC43-CD34-43E0-AC9E-5A170CB66ACE"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "17902164-71D2-47DC-B4DF-63E5A7A6CB5E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0714EF5D-CD16-48B1-9839-30D7C0B378DF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 6,
+                        "name": "Ligthing-1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "HelmetLighting:Lighting"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "2DCC7287-91D6-410F-B778-DCB94BB0E7A1"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": [
+                    1
+                ]
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "29E5944C-055A-4D49-BBC4-3F9024BDCCE6"
+            },
+            "ownerScriptId": {
+                "uuid": "16F3646A-1D97-4E8B-8F11-3F6A9AE6C9B3"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "6A5362C4-1A65-4718-8B32-D99932B43EA0"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "C88F7E28-3A2A-41AE-973D-BBB01DF24198"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "0E721EA1-5763-4F2B-A100-7CF939287E44"
+                },
+                "name": "s",
+                "type": "float",
+                "value": 151.0
+            }
+        ]
+    }
+}
