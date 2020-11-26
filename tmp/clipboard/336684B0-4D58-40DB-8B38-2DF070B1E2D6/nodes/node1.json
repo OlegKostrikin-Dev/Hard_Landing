@@ -1,0 +1,151 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "D93B8EDE-3342-4032-BE8B-811FE337421B"
+            },
+            "name": "LightLamp_01",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.0,
+                        2.0421981811523439,
+                        0.1786697506904602,
+                        0.0,
+                        -2.0499989986419679,
+                        0.0,
+                        -3.0547365525990247e-8,
+                        0.0,
+                        -3.0547365525990247e-8,
+                        -0.1786697506904602,
+                        2.0421981811523439,
+                        0.0,
+                        -83.26705932617188,
+                        7.240426063537598,
+                        -2.0727431774139406,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.0,
+                        2.0421981811523439,
+                        0.1786697506904602,
+                        0.0,
+                        -2.0499989986419679,
+                        0.0,
+                        -3.0547365525990247e-8,
+                        0.0,
+                        -3.0547365525990247e-8,
+                        -0.1786697506904602,
+                        2.0421981811523439,
+                        0.0,
+                        -83.26705932617188,
+                        7.240426063537598,
+                        -2.0727431774139406,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "RootNode",
+                "importedName": "RootNode",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "053BA81D-03E3-4FAA-9FA7-3A9FA0D21DF4"
+        },
+        "is_asset_root": true,
+        "children": [
+            "997EC4F8-2B05-4DAE-8BD3-41FAB3E6925B"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "997EC4F8-2B05-4DAE-8BD3-41FAB3E6925B"
+            },
+            "name": "LampLight_01",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "C08CFD10-CA13-4DA7-AD5E-5FAE602FA336"
+                },
+                "static": true,
+                "shadowCast": false,
+                "shadowReceive": false
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "3753BB10-BBD8-4FA3-8FC6-19B078199948"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.0,
+                        0.020421981811523439,
+                        0.0017866974230855704,
+                        0.0,
+                        -0.02049998939037323,
+                        0.0,
+                        -3.0547364637811827e-10,
+                        0.0,
+                        -3.0547364637811827e-10,
+                        -0.0017866974230855704,
+                        0.020421981811523439,
+                        0.0,
+                        -83.26705932617188,
+                        7.240426063537598,
+                        -2.0727431774139406,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "LampLight_01",
+                "importedName": "LampLight_01",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "053BA81D-03E3-4FAA-9FA7-3A9FA0D21DF4"
+        },
+        "is_asset_root": false
+    }
+]
