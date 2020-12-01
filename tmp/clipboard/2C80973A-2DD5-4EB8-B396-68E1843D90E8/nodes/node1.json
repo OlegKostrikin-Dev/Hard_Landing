@@ -1,0 +1,151 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "61CEBAF4-6C64-4BC6-BBE5-4FB130F64619"
+            },
+            "name": "BigCrate_00",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        -8.940688189795765e-8,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        8.940688189795765e-8,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -117.62052154541016,
+                        19.412912368774415,
+                        -4.550575256347656,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        -8.940688189795765e-8,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        8.940688189795765e-8,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -117.62052154541016,
+                        19.412912368774415,
+                        -4.550575256347656,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "RootNode",
+                "importedName": "RootNode",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "8B6FA27A-1020-4D19-A76E-AEFE125B377D"
+        },
+        "is_asset_root": true,
+        "children": [
+            "A9B25736-BB10-4409-92E0-7AFF8ACD8E72"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "A9B25736-BB10-4409-92E0-7AFF8ACD8E72"
+            },
+            "name": "BigCrate",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "08747E40-3ACA-407D-9BD2-2DF1598DC0AE"
+                },
+                "static": false,
+                "shadowCast": false,
+                "shadowReceive": false
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "3E29BCA8-DBCC-4838-ADBC-DD4D8B49F76F"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        100.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        100.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        100.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        100.0,
+                        0.0,
+                        -0.000008940688530856278,
+                        0.0,
+                        0.0,
+                        100.0,
+                        0.0,
+                        0.0,
+                        0.000008940688530856278,
+                        0.0,
+                        100.0,
+                        0.0,
+                        -117.62052154541016,
+                        19.412912368774415,
+                        -4.550575256347656,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "BigCrate",
+                "importedName": "BigCrate",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "8B6FA27A-1020-4D19-A76E-AEFE125B377D"
+        },
+        "is_asset_root": false
+    }
+]
