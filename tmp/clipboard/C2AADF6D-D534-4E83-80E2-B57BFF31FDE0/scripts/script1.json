@@ -1,0 +1,185 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "0C23DA83-CE0E-4439-B7F0-FBC407194B40"
+    },
+    "name": "Track_00_00 Animation 1",
+    "enableOnAwake": false,
+    "duration": 12000,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0F1C5F55-27B4-4C4C-89D4-A343F1929C33"
+                },
+                "name": "t",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "87188FFF-DB89-44B1-9F19-63733EF1B143"
+                    }
+                },
+                "animation": {
+                    "uuid": "4675E174-FF5D-4397-8965-9CA2B5836631"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "97AB02DC-371E-47E5-AB48-82E98B2EF38D"
+                },
+                "name": "hr",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "BFC4CBC3-4298-4265-8E61-350F618AE456"
+                    }
+                },
+                "animation": {
+                    "uuid": "1161BD27-41E0-4320-A081-97905A862B0E"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "699237BC-609E-4114-89CB-6A2AE3CBFFA9"
+                },
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "2F1FF798-368D-46C6-B5D2-155D2713C348"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 7,
+                        "name": "Track_00_02"
+                    }
+                },
+                "animation": {
+                    "uuid": "04D962A7-CFFA-4D07-AEF7-33578A84B88B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "93CD0B25-B928-4380-877A-62D944CB99F5"
+                },
+                "name": "index",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0169A549-8750-4DEB-BF1A-947CB0FF97A5"
+                    }
+                },
+                "animation": {
+                    "uuid": "4FD05FDE-99BA-40B9-B708-73F9BB342D2D"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "46EEA9A7-291C-4D00-B041-879930F8D240"
+                },
+                "name": "t0",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DDC8435B-A7D5-4911-9498-A3486AFC40A1"
+                    }
+                },
+                "animation": {
+                    "uuid": "6E06D8F5-03ED-4068-BB6F-8B19C0554D63"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StartTrigger",
+            "id": {
+                "uuid": "CA3E7625-F89A-4C50-A2FC-020E12327628"
+            },
+            "ownerScriptId": {
+                "uuid": "0C23DA83-CE0E-4439-B7F0-FBC407194B40"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "B800984F-0C29-452B-997D-0644AC7CD1A4"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "87188FFF-DB89-44B1-9F19-63733EF1B143"
+                },
+                "name": "t",
+                "type": "float",
+                "value": 0.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "BFC4CBC3-4298-4265-8E61-350F618AE456"
+                },
+                "name": "hr",
+                "type": "float",
+                "value": 0.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "0169A549-8750-4DEB-BF1A-947CB0FF97A5"
+                },
+                "name": "index",
+                "type": "float",
+                "value": 0.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "DDC8435B-A7D5-4911-9498-A3486AFC40A1"
+                },
+                "name": "t0",
+                "type": "float",
+                "value": 0.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,157 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "2F1FF798-368D-46C6-B5D2-155D2713C348"
+            },
+            "name": "Track_00_02",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "4EC439CA-F2F1-4661-B539-C2AF375678D5"
+                },
+                "static": false,
+                "shadowCast": true,
+                "shadowReceive": true
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "E74D2BD3-1A78-4FAB-9F8B-169E5F4E3BBE"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.010526316240429879,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        6.274173403042482e-10,
+                        0.010526316240429879,
+                        0.0,
+                        0.0,
+                        -0.010526316240429879,
+                        6.274173403042482e-10,
+                        0.0,
+                        24.000001907348634,
+                        1.6299999952316285,
+                        1.4799995422363282,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.010000000707805157,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.010000000707805157,
+                        -1.7881396363605973e-9,
+                        0.0,
+                        0.0,
+                        1.7881396363605973e-9,
+                        0.010000000707805157,
+                        0.0,
+                        -13.392877578735352,
+                        -11.122305870056153,
+                        -0.0039865970611572269,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "Track_00_00",
+                "importedName": "Track_00_00",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "BCA630CD-E333-485D-9D7D-89E8818D9861"
+        },
+        "is_asset_root": true,
+        "children": [
+            "8D9F758E-F3ED-4E8D-8AF6-8CA274477ACE"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "8D9F758E-F3ED-4E8D-8AF6-8CA274477ACE"
+            },
+            "name": "Track_00_00 Animation 1",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "0C23DA83-CE0E-4439-B7F0-FBC407194B40"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.010000000707805157,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.010000000707805157,
+                        -1.7881396363605973e-9,
+                        0.0,
+                        0.0,
+                        1.7881396363605973e-9,
+                        0.010000000707805157,
+                        0.0,
+                        -13.392877578735352,
+                        -11.122305870056153,
+                        -0.0039865970611572269,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "BCA630CD-E333-485D-9D7D-89E8818D9861"
+        },
+        "is_asset_root": false
+    }
+]

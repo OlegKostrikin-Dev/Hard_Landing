@@ -1,0 +1,71 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "2C6453EA-1BB9-4736-B315-EFCDD8A46005"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 12000,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "if(t0<(object__26D3EEFE_C471_4437_84D7_220994E21F67__width*2+object__26D3EEFE_C471_4437_84D7_220994E21F67__radius*2*pi)){t0}else{t0-(object__26D3EEFE_C471_4437_84D7_220994E21F67__width*2+object__26D3EEFE_C471_4437_84D7_220994E21F67__radius*2*pi)}"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "0"
+                                },
+                                "time": 12000,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "FloatVariableAccessor",
+            "attribute": "t"
+        }
+    ]
+}

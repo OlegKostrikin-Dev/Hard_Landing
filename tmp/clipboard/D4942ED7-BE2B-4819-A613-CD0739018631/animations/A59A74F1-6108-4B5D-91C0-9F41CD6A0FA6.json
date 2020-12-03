@@ -1,0 +1,71 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "A59A74F1-6108-4B5D-91C0-9F41CD6A0FA6"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 12000,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "19"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "0"
+                                },
+                                "time": 12000,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "FloatVariableAccessor",
+            "attribute": "index"
+        }
+    ]
+}
