@@ -1,0 +1,71 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "81F27394-0222-45C3-A238-BD4A1F31CCDE"
+    },
+    "name": "CrateBox_01 Animation 1",
+    "enableOnAwake": false,
+    "duration": 0,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "05586F98-824C-438A-BFDF-4BFA93FBD826"
+                },
+                "name": "Quest Box ",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "ECC38BB4-6240-46EC-AACC-ECBFF0E0A553"
+                    }
+                },
+                "animation": {
+                    "uuid": "F6BBC20C-985C-4A5A-954C-876A52DC5E80"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "E21848D0-8CE0-4081-AC58-2072E192593F"
+            },
+            "ownerScriptId": {
+                "uuid": "81F27394-0222-45C3-A238-BD4A1F31CCDE"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "1F741A79-35F5-4F1A-BE63-519545380A56"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "7474016C-EF0D-4AEB-BD30-F0F91E53B9DA"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}
