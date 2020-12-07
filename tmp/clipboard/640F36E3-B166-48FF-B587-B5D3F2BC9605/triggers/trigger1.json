@@ -1,0 +1,76 @@
+{
+    "@class": "GroupTrigger",
+    "id": {
+        "uuid": "791CFEB5-D5A6-435B-9D24-2908A8665B7C"
+    },
+    "ownerScriptId": {
+        "uuid": "B58FCB4D-21FC-401D-AFCD-378EDB14EB7C"
+    },
+    "logicOperation": 0,
+    "resultType": 0,
+    "isInverted": false,
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "36A2D29B-9CD2-4234-8D8F-B14C26CD70ED"
+            },
+            "ownerScriptId": {
+                "uuid": "B58FCB4D-21FC-401D-AFCD-378EDB14EB7C"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "1F741A79-35F5-4F1A-BE63-519545380A56"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "CrateBox_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "BoxCollider"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "7474016C-EF0D-4AEB-BD30-F0F91E53B9DA"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "79159751-0564-48A9-8F38-D7F86D9B26DF"
+            },
+            "ownerScriptId": {
+                "uuid": "B58FCB4D-21FC-401D-AFCD-378EDB14EB7C"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "7474016C-EF0D-4AEB-BD30-F0F91E53B9DA"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "D580F785-F33B-4FDE-BD3C-6B25D71E1908"
+                }
+            },
+            "allowed": false
+        }
+    ]
+}
