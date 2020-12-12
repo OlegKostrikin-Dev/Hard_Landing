@@ -1,0 +1,228 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "0AD3758E-F758-4023-AF17-3A2D3DF5737E"
+            },
+            "name": "Collider",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "colliders": [
+                {
+                    "@class": "BaseComponentCollider",
+                    "colliderId": {
+                        "uuid": "C21CB9B9-8DA0-4676-BF26-EFE693B6E038"
+                    }
+                }
+            ],
+            "rigidBody": {
+                "@class": "BaseComponentPhysBody",
+                "rigidBodyId": {
+                    "uuid": "B48672EB-5975-4872-8830-58FF7E077125"
+                },
+                "isEnabled": true
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        24.000003814697267,
+                        2.0000011920928957,
+                        0.3000011444091797,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -0.949999988079071,
+                        -2.0250470679668288e-14,
+                        8.305167398248159e-8,
+                        0.0,
+                        8.305167398248159e-8,
+                        -4.529953514520457e-7,
+                        0.949999988079071,
+                        0.0,
+                        2.0250470679668288e-14,
+                        0.949999988079071,
+                        5.096197810416925e-7,
+                        0.0,
+                        -64.02061462402344,
+                        -20.975112915039064,
+                        -0.23112201690673829,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "EEA33968-71C6-4A61-8AED-70813B455DF3"
+        },
+        "is_asset_root": true,
+        "children": [
+            "16BB7D16-E63F-40D9-AD28-326DCDB21212",
+            "DC1F081D-1D4B-4B2B-B80A-E50493F3AD14"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "16BB7D16-E63F-40D9-AD28-326DCDB21212"
+            },
+            "name": "Move to Start",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "574ACEE1-1DE0-426E-B93E-33FAF854D34F"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.657470703125,
+                        -1.7881393432617188e-7,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -0.949999988079071,
+                        -2.0250470679668288e-14,
+                        8.305167398248159e-8,
+                        0.0,
+                        8.305167398248159e-8,
+                        -4.529953514520457e-7,
+                        0.949999988079071,
+                        0.0,
+                        2.0250470679668288e-14,
+                        0.949999988079071,
+                        5.096197810416925e-7,
+                        0.0,
+                        -64.64521026611328,
+                        -20.975112915039064,
+                        -0.23112213611602784,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "EEA33968-71C6-4A61-8AED-70813B455DF3"
+        },
+        "is_asset_root": false
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "DC1F081D-1D4B-4B2B-B80A-E50493F3AD14"
+            },
+            "name": "Mover ",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "14F1E865-E1B1-496C-B366-853EA746B985"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        4.500007629394531,
+                        -1.4901161193847657e-8,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -0.949999988079071,
+                        -2.0250470679668288e-14,
+                        8.305167398248159e-8,
+                        0.0,
+                        8.305167398248159e-8,
+                        -4.529953514520457e-7,
+                        0.949999988079071,
+                        0.0,
+                        2.0250470679668288e-14,
+                        0.949999988079071,
+                        5.096197810416925e-7,
+                        0.0,
+                        -68.29562377929688,
+                        -20.975112915039064,
+                        -0.23112165927886964,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "EEA33968-71C6-4A61-8AED-70813B455DF3"
+        },
+        "is_asset_root": false
+    }
+]

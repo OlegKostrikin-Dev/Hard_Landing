@@ -1,0 +1,81 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "8B4FDC6E-65C4-4C9A-A2A9-89EE943071BC"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 1100,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6CC62051-7F64-40A6-956D-121CA2D22080"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "29416BA5-1B30-414C-9C0E-5BF2328AFBD2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 24,
+                        "name": "Collider"
+                    }
+                },
+                "animation": {
+                    "uuid": "036DCCCA-427C-4C1D-91D6-1477D456F754"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "093B197F-7FEE-4EC5-9159-0F198C186F31"
+            },
+            "ownerScriptId": {
+                "uuid": "8B4FDC6E-65C4-4C9A-A2A9-89EE943071BC"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "E1C25248-4512-4B98-972C-CA6F5D329DA7"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "29416BA5-1B30-414C-9C0E-5BF2328AFBD2"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 24,
+                    "name": "Collider"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}
