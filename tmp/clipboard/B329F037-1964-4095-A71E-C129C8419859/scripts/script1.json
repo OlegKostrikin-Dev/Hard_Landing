@@ -1,0 +1,171 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "DD95662E-18F1-4312-A6B5-A36573817FA6"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 4500,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3365FBCA-8342-4659-860F-E666CA971639"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "8B1E2B2F-7F31-41FD-ABD9-8B0FFF6D04BE"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Transporter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 17,
+                            "name": "SM_RocketPanel_02_Tube_02"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B9F0EEF7-DF41-4CCB-9C83-A21CB48E257E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0754C5E8-10FE-497F-8564-E8B06C2BB8FB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "D4A18C4A-81C9-49EB-B8E9-4304832586C9"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Transporter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 18,
+                            "name": "SM_RocketPanel_02_Tube_02"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "E9995FE3-9E69-4FC1-BA2F-9BB90204AEE1"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "104DA95F-30EC-44F9-885E-3BCE2E8DDD1F"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "842F64CA-F15E-4F4C-86EB-5E8FF119658C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Transporter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 19,
+                            "name": "SM_RocketPanel_02_Tube_02"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "025C495C-C47E-448E-99E1-81810764C140"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5FF7D0C5-5B81-433A-A75E-2D6D655BE142"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "BEEE9502-0433-45A1-8BA9-024B36453FB7"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Transporter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 20,
+                            "name": "SM_RocketPanel_02_Tube_02"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D237A801-5AD6-4163-902D-56C3BF89904D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "393564A6-487C-4A41-A082-A13B2C51D78C"
+            },
+            "ownerScriptId": {
+                "uuid": "DD95662E-18F1-4312-A6B5-A36573817FA6"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "B85CB423-6FBD-415A-AC43-5230BE402B80"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "B85CB423-6FBD-415A-AC43-5230BE402B80"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

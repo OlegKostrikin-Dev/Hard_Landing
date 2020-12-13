@@ -1,0 +1,34 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "7D3BE5DB-E771-4AB3-82DD-EA64C90F4079"
+    },
+    "tracks": [
+        {
+            "@class": "StringBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "StringBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "StringValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "StringDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "StringKeyFrame",
+                                "formula": {
+                                    "@class": "StringExpressionFormula",
+                                    "expression": "return ['rigidBody']"
+                                },
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "StringBehaviorTrackScript",
+            "accessor": "RigidBodyTypeAccessor"
+        }
+    ]
+}

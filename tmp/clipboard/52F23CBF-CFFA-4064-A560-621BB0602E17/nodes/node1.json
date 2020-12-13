@@ -1,0 +1,82 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "D898B4D7-9823-42F4-B9E0-F06A50F6F6C5"
+            },
+            "name": "Left",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "colliders": [
+                {
+                    "@class": "BaseComponentCollider",
+                    "colliderId": {
+                        "uuid": "6B2AAC12-F561-431C-9E2F-38D69527A870"
+                    }
+                }
+            ],
+            "rigidBody": {
+                "@class": "BaseComponentPhysBody",
+                "rigidBodyId": {
+                    "uuid": "AA7F2EB5-B999-4629-A112-E107D109391A"
+                },
+                "isEnabled": true
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.5871438980102539,
+                        1.0969657897949219,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -1.1920930376163597e-7,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.1399999856948853,
+                        -1.3589860259344278e-7,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.9999999403953552,
+                        0.0,
+                        -60.53333282470703,
+                        -6.19654655456543,
+                        0.5405057668685913,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "CBFEFF86-D1C2-4B4C-B3A0-DDBAC0150151"
+        },
+        "is_asset_root": false
+    }
+]

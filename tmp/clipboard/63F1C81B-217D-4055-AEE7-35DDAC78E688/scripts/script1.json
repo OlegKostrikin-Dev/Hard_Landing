@@ -1,0 +1,328 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 4000,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6DEC2AAA-ED9E-4B7C-A0A0-82A23A2D71A4"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "BFA19E11-D673-47FD-915D-261730BB8B67"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "CrateBox 03"
+                    }
+                },
+                "animation": {
+                    "uuid": "85A2C385-03CB-4CB8-A46B-30BB52BAD45E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "730B13CF-5A2D-441D-BCE3-C1D17D168FA7"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BFA19E11-D673-47FD-915D-261730BB8B67"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "753CC0C3-61F6-4591-B115-0757A1B8C975"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "CF8B6257-8CA1-447A-9949-5D5719C861B0"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BFA19E11-D673-47FD-915D-261730BB8B67"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DDD5ED23-6E1E-4DC7-9D80-E877386DDFE7"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "58643C29-740F-4392-AD9B-2F956C18B212"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "0F44BDFE-1A8E-4C24-88C6-497E7DFD5123"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Top"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BDAF7567-4A10-4A36-B2F5-0C0B5BCD7C8A"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "CD4A9D67-E028-41C5-8831-C0855DB749DD"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "0F44BDFE-1A8E-4C24-88C6-497E7DFD5123"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Top"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "379D21BB-E70B-40BA-A4B5-1ED4894B96FB"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "70F01B99-5ED6-4C55-8F01-BEC1648624BC"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DE09EFA6-BEB4-41ED-A6AA-6353870A2A96"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Left"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BDAF7567-4A10-4A36-B2F5-0C0B5BCD7C8A"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "8AE60588-55EC-4FEF-9C08-3B5D6CEEFFDD"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DE09EFA6-BEB4-41ED-A6AA-6353870A2A96"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Left"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "379D21BB-E70B-40BA-A4B5-1ED4894B96FB"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "3F0404A9-6227-4B60-B036-B7320FB66704"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "42752117-EA42-4280-A33C-8E089F46A8F5"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Right"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BDAF7567-4A10-4A36-B2F5-0C0B5BCD7C8A"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "7138F441-5373-4C18-9D38-19466C9568C9"
+            },
+            "ownerScriptId": {
+                "uuid": "7C765AE8-5D78-46AF-8AD0-0D3594DC8B10"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "42752117-EA42-4280-A33C-8E089F46A8F5"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "CrateBox 03",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Right"
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "379D21BB-E70B-40BA-A4B5-1ED4894B96FB"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

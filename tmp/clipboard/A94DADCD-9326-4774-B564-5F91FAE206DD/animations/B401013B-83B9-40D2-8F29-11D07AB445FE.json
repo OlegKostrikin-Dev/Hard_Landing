@@ -1,0 +1,162 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "B401013B-83B9-40D2-8F29-11D07AB445FE"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 3800,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getlocalpositionx('Start Box Position')"
+                                },
+                                "time": 3800,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionXBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 3800,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "getlocalpositiony('Start Box Position')"
+                                },
+                                "time": 3800,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionYBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 3800,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "90"
+                                },
+                                "time": 3800,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "RotationZBlendAccessor"
+        },
+        {
+            "@class": "StringBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "StringBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 4000,
+                    "script": "StringValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "StringDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "StringKeyFrame",
+                                "formula": {
+                                    "@class": "StringExpressionFormula",
+                                    "expression": "return ['triggerVolume']"
+                                },
+                                "time": 3600
+                            },
+                            {
+                                "@class": "StringKeyFrame",
+                                "formula": {
+                                    "@class": "StringExpressionFormula",
+                                    "expression": "return ['rigidBody']"
+                                },
+                                "time": 4000
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "StringBehaviorTrackScript",
+            "accessor": "RigidBodyTypeAccessor"
+        }
+    ]
+}

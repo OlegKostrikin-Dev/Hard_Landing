@@ -1,0 +1,48 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "3C647221-5686-4AC2-B7E4-2CD3E80ECAB8"
+    },
+    "tracks": [
+        {
+            "@class": "Vector3BehaviorTrack",
+            "clips": [
+                {
+                    "@class": "Vector3BehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "Vector3ValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "Vector3BezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.827451,0.176471,0.176471};return[v];"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "Vector3BehaviorTrackScript",
+            "accessor": "ColorBlendAccessor"
+        }
+    ]
+}

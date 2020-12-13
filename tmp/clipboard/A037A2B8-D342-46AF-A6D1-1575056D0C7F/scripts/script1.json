@@ -1,0 +1,277 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "55D25348-D413-4A1E-84A2-BC743363B003"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "duration": 100,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "479B87BB-DEEE-4C58-B8FB-D71C52ECDE1F"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C7C92B71-047C-4E4A-B662-4ACC45091C70"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01"
+                    }
+                },
+                "animation": {
+                    "uuid": "9EEBD521-889B-48F6-A1D0-88AE73A8889D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C0BDD75D-7874-44E3-9BCE-2281312E283E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "8CA5D6A2-A383-4C01-B354-78DFD11CAEA3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 5,
+                            "name": "Box Switcher"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "69D448F6-7A29-4353-8B8A-698A47E230B5"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BCCEFD2C-39FB-4D15-A54E-B96F396CD32F"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "D898B4D7-9823-42F4-B9E0-F06A50F6F6C5"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Right"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B4D74344-745B-4EA9-B971-7B5E5FFDA9ED"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9288B233-2B3D-4BED-BDF9-4C7EB96FF072"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "9CB17439-F49F-441A-B89A-AC164703B4CD"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 4,
+                            "name": "Bottom"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "1665368E-7DB4-45AD-BDE1-51C7119EB88E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "2181E169-DFCC-467A-83BE-35E67B7E5F6D"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0BC3F9BC-0199-4721-96CF-D9B76BC577F5"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "Top"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "042713B5-F0CA-4C64-A9C5-140B1CB3A78E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A81938DC-EFAB-4B5C-A938-A433E975A054"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5B7E9F60-9A79-43DB-82E3-6427A71D13EE"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 2,
+                            "name": "Left"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7D5B0C89-558A-4323-BD17-4A251B6D5512"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "4EFBAABF-97A2-4091-B652-D9B108995934"
+                },
+                "name": "Pusher Action",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "14699672-C7A0-453C-A6C3-EE5A860ABDD6"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "CrateBox 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 11,
+                            "name": "Push Mechanic",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Pusher Action"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "21CD3D7C-A39E-49EB-9485-2E5856C946AF"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "5E095D73-6F2E-4C27-BB20-A87474E828DA"
+            },
+            "ownerScriptId": {
+                "uuid": "55D25348-D413-4A1E-84A2-BC743363B003"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "6ECAD000-362F-49EE-9C44-85D30E91BB6B"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "3DCB30F6-6DF8-48B9-B443-7C74CA4C2B5D"
+            },
+            "ownerScriptId": {
+                "uuid": "55D25348-D413-4A1E-84A2-BC743363B003"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "749DDCBE-BB5B-4602-9319-118578B33837"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": [
+        {
+            "uuid": "62DFE792-5FA6-49EE-95C5-57E84426D567"
+        }
+    ]
+}
