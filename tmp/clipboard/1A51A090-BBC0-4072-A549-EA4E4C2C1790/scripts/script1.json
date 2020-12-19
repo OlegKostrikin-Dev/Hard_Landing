@@ -1,0 +1,40 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "AF25D293-8CE1-41D0-9566-8B81FB28026C"
+    },
+    "name": "Gun Sight",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "EDCE4131-D190-43CB-B548-B99A2D2E448F"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 15,
+            "name": "Bot_Shooter_01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 0,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Sensors",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Gun Sight"
+                    }
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "A9057E79-2387-4679-B1FE-F3A01D71209F"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "track_disabled_list": []
+}
