@@ -1,0 +1,73 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "D61551B4-C9D9-4A35-87A3-D2256E9810F0"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9FFFE927-D982-4C10-86AB-527DB5E0748D"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C9C39101-6043-42A2-A39C-E1C1B086C323"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Ligthing-1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "HelmetLighting:Lighting"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "086428AB-E9BD-437E-8028-2AB2497EB964"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "CBE4EDA3-5007-4671-A785-FE2877DE5902"
+            },
+            "ownerScriptId": {
+                "uuid": "D61551B4-C9D9-4A35-87A3-D2256E9810F0"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "214B0206-F767-462C-A527-6273ADA54C36"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

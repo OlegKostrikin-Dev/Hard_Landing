@@ -1,0 +1,203 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "4E56BFBD-DBE9-4793-A4D3-EAC27C0BA925"
+    },
+    "name": "Bot_Shooter_01 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3F257BBD-E36F-4D8A-9ADB-1FA7A7FCB8AD"
+                },
+                "name": "Gun Sight",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "EDCE4131-D190-43CB-B548-B99A2D2E448F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "Gun Sight"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "2A3475F3-EFD1-471D-8823-384BDFD64D15"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3895DFD8-9A60-485E-9C30-EF005C222FF8"
+                },
+                "name": "Head",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "D2BE387C-59E7-457F-AF3D-527695C2A86F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 3,
+                                    "name": "Head"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "044A56DC-BE42-454B-B4C2-9477B65EF2F6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BA3077FE-2756-4F47-8476-F51B243A8C09"
+                },
+                "name": "Aiming Zone",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "771B210A-C7EF-453B-B305-38FF2BE01E97"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 6,
+                                    "name": "Aiming Zone"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "CE10A7FC-60A5-43B7-A146-EACC8BE6C8A2"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "55A1AE68-7D51-426C-AA8B-2C89A0A7E454"
+                },
+                "name": "Chase Zone",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5CB1DC1A-9BA1-4EA6-AFC3-BE74BBA699BB"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 7,
+                                    "name": "Purse Zone"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "41EFF22F-7D15-46D4-AB07-CBA47530BB4C"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "2A3D02F0-15DD-4922-9D50-928F3093F274"
+            },
+            "ownerScriptId": {
+                "uuid": "4E56BFBD-DBE9-4793-A4D3-EAC27C0BA925"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "4BF52583-EDFD-4FFD-99F7-7F2920F018B3"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

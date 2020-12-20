@@ -1,0 +1,361 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "29C2B60C-23C8-40B8-9438-285AC8F1353E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E7DE8EB1-C652-4CA3-B6CA-DA466A83712D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "States",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "on Platform"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D221FEB1-C11A-4085-9898-8470C6675C60"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "9671D303-1F52-4952-8262-A1D3C48F3037"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "BDAF7567-4A10-4A36-B2F5-0C0B5BCD7C8A"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "A7C0C59B-88DE-4640-8724-D0644EDEEE81"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "24847C99-1CD1-4129-82AB-B1088D27897D"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "53EB723E-3D70-4925-B387-1D3C41B7FEE5"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "EC37A7BF-C473-4230-BF00-C2ED2963EC8B"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "C42C0F69-8C74-47C1-884E-5B62628488AE"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "B63B2C07-1511-46F2-A076-C88AD520C97C"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "15AEA5B9-CBD9-4CFD-BAF1-0541F5CEC5C5"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "379D21BB-E70B-40BA-A4B5-1ED4894B96FB"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "778F6529-B266-47F0-A75A-9EEE269A308F"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "out",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8EAA7DE4-157E-4C40-B57B-AE4626CEE988"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Sensors",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Shooter_Front"
+                            }
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "0D4AA4ED-15F5-4FBC-819A-86E64D9821B0"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "25356B8F-4CAB-4AE5-8E8C-0B4D4451BF4B"
+            },
+            "ownerScriptId": {
+                "uuid": "89A52C07-4D1F-4C77-98F8-CE7C39F0D594"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}

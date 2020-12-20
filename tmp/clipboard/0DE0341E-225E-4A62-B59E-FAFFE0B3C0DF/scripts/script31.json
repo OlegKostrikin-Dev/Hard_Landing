@@ -1,0 +1,382 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "20C9FC5F-968A-4138-948D-852D32703373"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "8F6798A8-3FA5-427E-9A28-AC0D8F247CFF"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C676CA49-C657-4F08-8ADB-46F556A393C2"
+                },
+                "name": "MuzzleFlash",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "83A36BF5-F1DF-40D7-8AF4-854E9B1B191C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "mixamorig_Hips",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Spine2",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 2,
+                                                "name": "mixamorig_RightShoulder",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightForeArm",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHand",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 2,
+                                                                "name": "MuzzleFlash"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C493AD4A-BBB7-44AE-92A7-6B808C637A41"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DC7F7C12-96A6-4972-B6CD-F0EF2B9C4BFD"
+                },
+                "name": "Shooter Speaker",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3BBAC797-79DB-4316-A9B7-A6F79D1EBBB9"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 15,
+                        "name": "Bot_Shooter_01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter Speaker"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "91C4A439-60F4-44B0-B2B9-23FE456C753D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "93C391FB-F1E3-434C-AD42-E954B21EA0AF"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "42EE62DF-8718-44DF-8A89-6EF3EC3C496C"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "States",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 8,
+                            "name": "Shooting Stay"
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "42EE62DF-8718-44DF-8A89-6EF3EC3C496C"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "States",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 8,
+                            "name": "Shooting Stay"
+                        }
+                    }
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "9E8DF81F-A3C9-4A29-A2B9-C1C9AC5CB882"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "4BF52583-EDFD-4FFD-99F7-7F2920F018B3"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Landing"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "B9283097-9870-48B5-A42A-F96E6A24DE04"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "6658397F-F970-4495-9E76-1497EB61217C"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 16,
+                        "name": "Jump Start"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "61006870-B2D4-45BD-9981-EE7CE7A49A42"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "7C7C5527-A9F7-4593-8A66-D000FD64F231"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 17,
+                        "name": "Jumping"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "59794020-B518-40FC-A994-FB4DD36007DB"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "0C91C5DA-C932-4BAA-A02F-DFC2997A7A94"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 36,
+                        "name": "Agony"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "0B221E21-75FF-45C2-9E06-7699C2FB70BB"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": true,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "EC80C07B-500F-40B0-97DD-16C819087FFE"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 10,
+                        "name": "Turn Around"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "68572197-90EE-462D-BFB3-9B30D084B916"
+            },
+            "ownerScriptId": {
+                "uuid": "8B2E927D-565B-463C-BCA7-88FB9D2BC791"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": [
+        {
+            "uuid": "56DDEEFB-B414-4F90-89B1-8F58A187E349"
+        }
+    ]
+}

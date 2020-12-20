@@ -1,0 +1,123 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "2E709870-A7A6-4453-8DDB-13AC19BE384B"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "30CBA2F3-A918-434F-94F5-3F38F53F6F1A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "9FBE861E-9B5C-4D6D-8863-BB82F6ADC358"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "5CB53517-FC1E-4B55-AC45-E89CE1F4688A"
+            },
+            "ownerScriptId": {
+                "uuid": "2E709870-A7A6-4453-8DDB-13AC19BE384B"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A9D2A1E0-22C7-40FD-9FFE-5F78C0AB1278"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "States",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 7,
+                            "name": "Annoy"
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A9D2A1E0-22C7-40FD-9FFE-5F78C0AB1278"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 15,
+                    "name": "Bot_Shooter_01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "States",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 7,
+                            "name": "Annoy"
+                        }
+                    }
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "C55DEA79-868A-4591-9714-5ECDA7E54504"
+            },
+            "ownerScriptId": {
+                "uuid": "2E709870-A7A6-4453-8DDB-13AC19BE384B"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "A3F33DF0-69AF-4857-88BE-9E86CE44757B"
+                }
+            },
+            "allowed": false
+        }
+    ],
+    "animation_disabled_list": []
+}
