@@ -1,0 +1,98 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "21049E2B-1DE4-4662-B5D5-18E3BAD1B028"
+    },
+    "name": "Ray 1 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "2370DD34-1017-44DD-9BA1-2D5962960007"
+                },
+                "name": "Projectile_02",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FD70CB71-6D70-40E6-A1A5-2B7F8521DB4D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Ray Antenna 2",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Spark"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "AD8D7A49-2F98-4EE1-B438-0C80DBBD96DB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DA791B3A-D4C9-4185-90AB-B486786B6EF4"
+                },
+                "name": "Ray 5",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A139C425-8014-4F24-B946-795BE6DE5963"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Ray Antenna 2"
+                    }
+                },
+                "animation": {
+                    "uuid": "640BFF29-1108-4AD6-A1D5-3EEB055B46CC"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "2F0A72C2-D2E0-4E9A-9934-F0576067FDF1"
+            },
+            "ownerScriptId": {
+                "uuid": "21049E2B-1DE4-4662-B5D5-18E3BAD1B028"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "C9179CC9-7029-48F7-9965-20B95E3585CC"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

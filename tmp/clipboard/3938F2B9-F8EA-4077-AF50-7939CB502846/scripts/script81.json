@@ -1,0 +1,98 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "D6A96A1E-DA0D-473B-A167-FE092A7957E3"
+    },
+    "name": "Ray 1 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "275D438C-5872-4BB2-95C5-E468EDD91AB5"
+                },
+                "name": "Projectile_02",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C0CCF9CB-4C69-48F6-8927-674033003B26"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Ray 8",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Spark"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "EDB360C6-0981-43FF-8901-A769CE5969A3"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AC149420-DB58-4710-96DE-3948E28B48EC"
+                },
+                "name": "Ray 5",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F541F495-49BA-48A7-8D58-FC8AE2BC6EA6"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Ray 8"
+                    }
+                },
+                "animation": {
+                    "uuid": "B8985444-6202-4680-BCEA-6B0DB57D4DC0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "8AAD9B58-491F-41F7-9C7B-A208225AAB95"
+            },
+            "ownerScriptId": {
+                "uuid": "D6A96A1E-DA0D-473B-A167-FE092A7957E3"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "AACCBD6C-7F5D-4093-8A5D-8875C6BF0B9F"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

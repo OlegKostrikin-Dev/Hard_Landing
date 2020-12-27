@@ -1,0 +1,166 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "A56389F3-E719-4B68-9AA9-FAEEA9DC709C"
+    },
+    "name": "Ray 1 Animation 1",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E35DA683-AF34-48F5-AABE-2109FD595017"
+                },
+                "name": "k",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B1D2EFE7-0774-4A78-B5D1-DE50FBA77BFC"
+                    }
+                },
+                "animation": {
+                    "uuid": "A6FB7051-42BD-4AAF-952F-0F3F1B49FAEC"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "830C235A-B433-4EBE-9991-17811D3CBB67"
+                },
+                "name": "r",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "459E89D2-1391-4F18-96AC-D0A434C459FD"
+                    }
+                },
+                "animation": {
+                    "uuid": "EA41A26E-3314-4E6C-8E45-398172E6CF06"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "502B1200-3335-4878-AC33-0184459CA868"
+                },
+                "name": "Ray 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "D2F81288-9D44-4E8A-A0CF-DC6B5AB573D4"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 6,
+                        "name": "Ray 5"
+                    }
+                },
+                "animation": {
+                    "uuid": "A8E4C5A7-D280-408E-9BBC-8ECD1F0F652B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "B720DE5E-558A-475C-9ACE-A72EF4FBE355"
+                },
+                "name": "Spark",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F913DC00-377D-46DB-82B6-46A7DAE903B4"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 6,
+                        "name": "Ray 5",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Spark"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "BFCFA57E-8A96-40AC-BC0E-4DF04864DDCC"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": [
+                    1
+                ]
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "888E603E-CB83-47BF-9084-CF862B30EAD9"
+            },
+            "ownerScriptId": {
+                "uuid": "A56389F3-E719-4B68-9AA9-FAEEA9DC709C"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "AACCBD6C-7F5D-4093-8A5D-8875C6BF0B9F"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "24DD6B57-A213-425E-9721-EB78D1AD2CD2"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "B1D2EFE7-0774-4A78-B5D1-DE50FBA77BFC"
+                },
+                "name": "k",
+                "type": "float",
+                "value": 1858.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "459E89D2-1391-4F18-96AC-D0A434C459FD"
+                },
+                "name": "r",
+                "type": "float",
+                "value": 222.0
+            }
+        ]
+    }
+}

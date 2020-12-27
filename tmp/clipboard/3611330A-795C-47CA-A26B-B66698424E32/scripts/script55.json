@@ -1,0 +1,68 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "D77C545C-734E-408F-ADF6-8F645B0CCAFD"
+    },
+    "name": "Ray 1 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9CFC2592-8C9D-45C7-B6DC-C75BE998536D"
+                },
+                "name": "Projectile_02",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5F874730-22CE-4DBE-847C-99F0862316DF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "1"
+                    }
+                },
+                "animation": {
+                    "uuid": "CD489F0E-3D99-4B13-BAA2-6DEBCB0EE080"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "78985147-8D52-40D9-9DEF-485D16D78D64"
+            },
+            "ownerScriptId": {
+                "uuid": "D77C545C-734E-408F-ADF6-8F645B0CCAFD"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "AACCBD6C-7F5D-4093-8A5D-8875C6BF0B9F"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

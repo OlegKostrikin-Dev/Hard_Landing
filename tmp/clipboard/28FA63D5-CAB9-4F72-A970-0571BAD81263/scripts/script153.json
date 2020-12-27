@@ -1,0 +1,168 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "12EB9008-89D0-4315-92AF-9B4EDDA6B9E6"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FC3B2429-7C46-4F71-8B5A-3D03DDBD045E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "39D688A0-E9B9-4C63-99BA-96ABC7D0BE65"
+                    }
+                },
+                "animation": {
+                    "uuid": "FE95D2D7-14DE-4EDA-BB71-96C94B719FAF"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A0E343ED-A313-4E7E-B518-3B186F82D6CB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5A637B74-8588-4FFE-AD40-8C1908E3024B"
+                    }
+                },
+                "animation": {
+                    "uuid": "091648B6-3766-43B4-9631-898B76B237D0"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0209EF57-045E-4BDD-AD22-D6E60FD18411"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "87C5717B-3A01-440E-A514-8478D7E188CD"
+                    }
+                },
+                "animation": {
+                    "uuid": "697972EF-0722-4953-8CBB-862D61353237"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "track_disabled_list": []
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0EF1A40F-A9EF-45A1-A47A-E73A4F94E1CF"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FB753368-7129-4BF7-9408-EFF16BCBC498"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Light-Group-1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "Ligthing Spiral"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D3C852BE-044A-4486-A02B-B0F3CF5F7239"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "track_disabled_list": []
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "B8C9BD31-4A62-4F0B-B1AE-561845D095F4"
+            },
+            "ownerScriptId": {
+                "uuid": "12EB9008-89D0-4315-92AF-9B4EDDA6B9E6"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "FB5B7C2A-6DC9-45FF-8247-F25C83624D2F"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "F111BD08-541B-4717-9820-C1A1A8D85060"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "39D688A0-E9B9-4C63-99BA-96ABC7D0BE65"
+                },
+                "name": "u",
+                "type": "float",
+                "value": 6.232920169830322
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "5A637B74-8588-4FFE-AD40-8C1908E3024B"
+                },
+                "name": "v",
+                "type": "float",
+                "value": 3.116460084915161
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "87C5717B-3A01-440E-A514-8478D7E188CD"
+                },
+                "name": "r",
+                "type": "float",
+                "value": 20.0
+            }
+        ]
+    }
+}
