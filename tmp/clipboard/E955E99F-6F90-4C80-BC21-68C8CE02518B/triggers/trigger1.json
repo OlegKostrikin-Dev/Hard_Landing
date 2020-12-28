@@ -1,0 +1,86 @@
+{
+    "@class": "CollisionTrigger",
+    "id": {
+        "uuid": "343654D6-13DF-4869-AC87-81C24FC17C11"
+    },
+    "ownerScriptId": {
+        "uuid": "1D9C7F8A-34AE-449C-A7AC-50338EC217FC"
+    },
+    "logicOperation": 0,
+    "resultType": 0,
+    "isInverted": false,
+    "eventType": "in",
+    "targetBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "88ACCE1E-54EC-4D11-8F6C-8DDF8B5ABE6C"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 11,
+            "name": "Bot_Shooter_01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 0,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Sensors",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Death System",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Death-1",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Death-1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "zoneBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "426BF1C8-9E31-4888-89C1-0425F918EABD"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 11,
+            "name": "Bot_Shooter_01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 0,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Sensors",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 9,
+                        "name": "Death System",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "Death-2",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Death-2"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "allowed": false
+}
