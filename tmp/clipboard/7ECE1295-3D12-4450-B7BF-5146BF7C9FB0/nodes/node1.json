@@ -1,0 +1,238 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "4C5E6910-AE17-4A0C-9BFA-EF4883FCFE4C"
+            },
+            "name": "HealthKit_01",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -2.0636215209960939,
+                        4.058889389038086,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -2.0636215209960939,
+                        4.058889389038086,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "RootNode",
+                "importedName": "RootNode",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "C6EECC0A-4EBA-45F8-A62C-E70EEBD2E087"
+        },
+        "is_asset_root": true,
+        "children": [
+            "9B781298-75C6-4DB8-B616-82155BA833AB",
+            "2DCAC92D-B1F7-450C-8F30-7132E5E790E5"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "9B781298-75C6-4DB8-B616-82155BA833AB"
+            },
+            "name": "Add Health",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "2EB474D7-50A5-4384-B476-360E52876953"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        -0.009999999776482582,
+                        -8.742276902395929e-10,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.1920927578401575e-9,
+                        0.009999999776482582,
+                        0.0,
+                        -8.742278012618954e-10,
+                        0.009999999776482582,
+                        -1.1920927578401575e-9,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -0.009999999776482582,
+                        -8.742276902395929e-10,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.1920927578401575e-9,
+                        0.009999999776482582,
+                        0.0,
+                        -8.742278012618954e-10,
+                        0.009999999776482582,
+                        -1.1920927578401575e-9,
+                        0.0,
+                        -2.0636215209960939,
+                        4.058889389038086,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "C6EECC0A-4EBA-45F8-A62C-E70EEBD2E087"
+        },
+        "is_asset_root": false
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "2DCAC92D-B1F7-450C-8F30-7132E5E790E5"
+            },
+            "name": "HealthKit_01",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "colliders": [
+                {
+                    "@class": "BaseComponentCollider",
+                    "colliderId": {
+                        "uuid": "F4B17442-1D20-40E6-8F61-6E4F84736361"
+                    }
+                }
+            ],
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "46AF4052-9E10-474E-8835-8735E07885C2"
+                },
+                "static": false,
+                "shadowCast": true,
+                "shadowReceive": false
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "5A698A69-1F66-4EEE-96A8-5DAB8F933B6C"
+                },
+                "mapsStates": 127
+            },
+            "rigidBody": {
+                "@class": "BaseComponentPhysBody",
+                "rigidBodyId": {
+                    "uuid": "7F3DF62A-6D58-4430-AE6E-FE50203F0BC4"
+                },
+                "isEnabled": true
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        0.019999999552965165,
+                        3.019915872926049e-9,
+                        1.7484554915014883e-9,
+                        0.0,
+                        3.019915872926049e-9,
+                        -0.019999999552965165,
+                        0.0,
+                        0.0,
+                        1.7484554915014883e-9,
+                        2.6400944939842675e-16,
+                        -0.019999999552965165,
+                        0.0,
+                        -0.7509603500366211,
+                        0.37219810485839846,
+                        -0.3286614418029785,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.019999999552965165,
+                        3.019915872926049e-9,
+                        1.7484554915014883e-9,
+                        0.0,
+                        3.019915872926049e-9,
+                        -0.019999999552965165,
+                        0.0,
+                        0.0,
+                        1.7484554915014883e-9,
+                        2.6400944939842675e-16,
+                        -0.019999999552965165,
+                        0.0,
+                        -2.814581871032715,
+                        4.431087493896484,
+                        -0.3286614418029785,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "HealthKit_01",
+                "importedName": "HealthKit_01",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "C6EECC0A-4EBA-45F8-A62C-E70EEBD2E087"
+        },
+        "is_asset_root": false
+    }
+]

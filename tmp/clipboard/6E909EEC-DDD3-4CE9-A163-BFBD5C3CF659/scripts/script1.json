@@ -1,0 +1,81 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "2ACF0B46-BF2B-4533-AF78-04BA9CFE3C47"
+    },
+    "name": "Animation Animation 1",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C80B1F6F-2B07-4138-B885-2F5E715349CD"
+                },
+                "name": "Speaker",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "70F1E2F9-95DC-41B1-BDD1-A9AE252F1168"
+                    }
+                },
+                "animation": {
+                    "uuid": "6BA40A98-CAD8-4DE2-93B4-210BF2F7BFA3"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "FFB2C9B6-C33F-4637-8292-90E08B85873B"
+            },
+            "ownerScriptId": {
+                "uuid": "2ACF0B46-BF2B-4533-AF78-04BA9CFE3C47"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "B0FA777C-3FBA-42B2-83FC-2FB61EE15F1B"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "532FFCFA-D85E-486F-8C36-0443A6894E13"
+            },
+            "ownerScriptId": {
+                "uuid": "2ACF0B46-BF2B-4533-AF78-04BA9CFE3C47"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "13F865D9-7267-4422-895F-DB426B9C940E"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}
