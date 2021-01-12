@@ -1,0 +1,101 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "4099D8F8-EDC0-4CCB-8C6B-FF1DFE194FA8"
+    },
+    "name": "Star_with_tail 1 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "F043202B-0ED5-4BA9-A92F-2BE5A14439DA"
+                },
+                "name": "Star",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6F3BFBC0-EFD6-4E52-9F44-858D953BDDA3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 21,
+                        "name": "Star_with_tail 3",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Star"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "E5812B45-25AA-4B6E-BEAE-A6DBAB5FA60B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6DC058E4-FA92-4E11-A17B-B70D26094B26"
+                },
+                "name": "Star_tail-1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5BB9BB71-F128-4616-85FB-06DEF2B79640"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 21,
+                        "name": "Star_with_tail 3",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "Star_tail-1"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "4F79EF6C-E02B-4675-8C09-AB2E7F575086"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "CC1947DF-0DE0-415C-91A4-282604CBBE4A"
+            },
+            "ownerScriptId": {
+                "uuid": "4099D8F8-EDC0-4CCB-8C6B-FF1DFE194FA8"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DF85C9A0-15B5-48E5-AA52-D6D86B1859AD"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": []
+}

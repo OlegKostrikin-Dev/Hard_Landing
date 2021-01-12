@@ -1,0 +1,215 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "9F49F1E1-62E4-42AC-A5A1-147D9FB5439A"
+    },
+    "name": "19340_Star Animation 1",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "37698B9D-5508-4994-9AED-8DE2A5BCBC90"
+                },
+                "name": "19340_Star",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F72D7C6C-C1E6-46D1-9115-5A25D8988B85"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Star_with_tail 10"
+                    }
+                },
+                "animation": {
+                    "uuid": "1CEB77A2-22BD-4EC9-8D93-2FBCE5B93959"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "042D483D-85CA-486F-A828-F163D9EEEAF3"
+                },
+                "name": "k",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C7BF2D71-B914-4E29-9BA0-821E7EF35374"
+                    }
+                },
+                "animation": {
+                    "uuid": "6D3441B2-8267-444D-88B6-56956F5C635C"
+                },
+                "AnimationType": "avar",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E9567991-0887-4094-946A-050B21FA3033"
+                },
+                "name": "u",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A876882C-0994-46DE-AD65-A475B13019F1"
+                    }
+                },
+                "animation": {
+                    "uuid": "536ECFE1-72C0-4B12-8B49-A89BEB3174EE"
+                },
+                "AnimationType": "avar",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "42DEB1AD-BD06-4B39-998F-0EE5B88C747A"
+                },
+                "name": "ip",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "CD4BCDB4-753C-4C81-990C-EB4BD8253773"
+                    }
+                },
+                "animation": {
+                    "uuid": "C67BB757-50FA-47F7-8BAE-712286DFC49C"
+                },
+                "AnimationType": "avar",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AE4D13D5-1D22-4988-9F1C-38A4FC3B4774"
+                },
+                "name": "m",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B2ED349E-92C3-499A-9CA8-09A87D7950E5"
+                    }
+                },
+                "animation": {
+                    "uuid": "A3C34AE1-8B46-430E-8CCE-85AACD43A234"
+                },
+                "AnimationType": "avar",
+                "is_imported": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "76107BC3-02BD-4940-BBEE-65CFFE4024BE"
+                },
+                "name": "v",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "72A9F0F6-C765-47A8-9E70-0ABB2EC57107"
+                    }
+                },
+                "animation": {
+                    "uuid": "C472A80B-159D-4663-BDCC-41CE88BFC663"
+                },
+                "AnimationType": "avar",
+                "is_imported": false
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "0C43EC64-4269-473D-9A79-2C77809C9568"
+            },
+            "ownerScriptId": {
+                "uuid": "9F49F1E1-62E4-42AC-A5A1-147D9FB5439A"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DF85C9A0-15B5-48E5-AA52-D6D86B1859AD"
+                }
+            }
+        }
+    ],
+    "animation_disabled_list": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "6F625E79-D4DF-48DC-92AD-EC3ABDB7E129"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "A876882C-0994-46DE-AD65-A475B13019F1"
+                },
+                "name": "u",
+                "type": "float",
+                "value": -2.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "72A9F0F6-C765-47A8-9E70-0ABB2EC57107"
+                },
+                "name": "v",
+                "type": "float",
+                "value": -2.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "C7BF2D71-B914-4E29-9BA0-821E7EF35374"
+                },
+                "name": "k",
+                "type": "float",
+                "value": 9.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "CD4BCDB4-753C-4C81-990C-EB4BD8253773"
+                },
+                "name": "ip",
+                "type": "float",
+                "value": 2.0
+            },
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "B2ED349E-92C3-499A-9CA8-09A87D7950E5"
+                },
+                "name": "m",
+                "type": "float",
+                "value": 5.0
+            }
+        ]
+    }
+}

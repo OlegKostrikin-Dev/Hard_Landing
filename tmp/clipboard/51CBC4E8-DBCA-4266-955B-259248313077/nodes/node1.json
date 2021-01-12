@@ -1,0 +1,305 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "3BCDC631-45CC-4C81-96D3-8184BC5B025D"
+            },
+            "name": "Star_with_tail 6",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        -7.947286917442398e-8,
+                        -7.740986459353768e-17,
+                        -0.6666666865348816,
+                        0.0,
+                        1.862645371275562e-9,
+                        0.6666663885116577,
+                        1.1175870895385743e-8,
+                        0.0,
+                        0.6666666865348816,
+                        -1.862645593320167e-9,
+                        -7.947290470156077e-8,
+                        0.0,
+                        6.776263578034403e-21,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.009961947798728943,
+                        -0.0008715574513189495,
+                        -1.1920929798847624e-9,
+                        0.0,
+                        0.0008715568110346794,
+                        0.009961942210793496,
+                        2.7939680083410857e-11,
+                        0.0,
+                        1.0733635091852989e-9,
+                        -1.3173116764075844e-10,
+                        0.009999999776482582,
+                        0.0,
+                        2.5665411949157717,
+                        8.192329406738282,
+                        1.0164395139859663e-22,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "RootNode",
+                "importedName": "RootNode",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "F0A09879-DE22-479C-912F-983FC2E2CC22"
+        },
+        "is_asset_root": true,
+        "children": [
+            "CBAE1D06-F43E-4FC2-8C9C-D77CFC8B6284",
+            "DFB8085A-06AF-417B-941F-9FD8F86F464A",
+            "059FC2DF-D228-4ACF-BC2E-9ED66CF0B9C2"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "CBAE1D06-F43E-4FC2-8C9C-D77CFC8B6284"
+            },
+            "name": "Star",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "EC5F2E56-2EEE-49C4-9FD2-4C091107EDC7"
+                },
+                "static": false,
+                "shadowCast": true,
+                "shadowReceive": true
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "B61188F2-3A1E-4E53-8B57-8DAFD52F099B"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        40.024566650390628,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        40.024566650390628,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        40.024566650390628,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.39872264862060549,
+                        -0.034883707761764529,
+                        -4.771300510242327e-8,
+                        0.0,
+                        0.034883685410022739,
+                        0.39872241020202639,
+                        1.118273584843621e-9,
+                        0.0,
+                        4.296090949651443e-8,
+                        -5.272482894724817e-9,
+                        0.40024566650390627,
+                        0.0,
+                        2.5665411949157717,
+                        8.192329406738282,
+                        1.0164395139859663e-22,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "Star",
+                "importedName": "Star",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "F0A09879-DE22-479C-912F-983FC2E2CC22"
+        },
+        "is_asset_root": false
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "DFB8085A-06AF-417B-941F-9FD8F86F464A"
+            },
+            "name": "Star_tail",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "335F08AB-E86A-4AA6-BADB-C3B88DD85C8A"
+                },
+                "static": false,
+                "shadowCast": true,
+                "shadowReceive": true
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "B61188F2-3A1E-4E53-8B57-8DAFD52F099B"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        26.73016357421875,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        26.73016357421875,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        26.73016357421875,
+                        0.0,
+                        10.18387222290039,
+                        -0.08800506591796875,
+                        1.0057058334350587,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.2662844955921173,
+                        -0.02329687401652336,
+                        -3.186483965578191e-8,
+                        0.0,
+                        0.02329685539007187,
+                        0.26628434658050539,
+                        7.468322071879641e-10,
+                        0.0,
+                        2.8691182762941027e-8,
+                        -3.5211955573544175e-9,
+                        0.26730161905288699,
+                        0.0,
+                        2.6679155826568605,
+                        8.182577133178711,
+                        0.010057046078145504,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "Star_tail",
+                "importedName": "Star_tail",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "F0A09879-DE22-479C-912F-983FC2E2CC22"
+        },
+        "is_asset_root": false
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "059FC2DF-D228-4ACF-BC2E-9ED66CF0B9C2"
+            },
+            "name": "Star Animation 1",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "7AE1BF50-3591-4EB1-8C21-713C5F98EB96"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        -0.06347936391830445,
+                        -0.023383721709251405,
+                        0.9977089166641235,
+                        0.0,
+                        0.02338370680809021,
+                        0.999416172504425,
+                        0.024911528453230859,
+                        0.0,
+                        -0.9977089762687683,
+                        0.02491152286529541,
+                        -0.0628955140709877,
+                        0.0,
+                        -22.413314819335939,
+                        -86.9923095703125,
+                        -96.03227233886719,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        -0.0006527572986669838,
+                        -0.00017762149218469858,
+                        0.009977089241147042,
+                        0.0,
+                        0.001103995251469314,
+                        0.009935745969414711,
+                        0.0002491152845323086,
+                        0.0,
+                        -0.009917412884533406,
+                        0.001117727835662663,
+                        -0.0006289539742283523,
+                        0.0,
+                        2.267442226409912,
+                        7.345251560211182,
+                        -0.9603226780891419,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        },
+        "asset_id": {
+            "uuid": "F0A09879-DE22-479C-912F-983FC2E2CC22"
+        },
+        "is_asset_root": false
+    }
+]
