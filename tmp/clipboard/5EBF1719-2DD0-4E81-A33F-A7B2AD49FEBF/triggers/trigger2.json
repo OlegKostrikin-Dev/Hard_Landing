@@ -1,0 +1,42 @@
+{
+    "@class": "GroupTrigger",
+    "id": {
+        "uuid": "A7F39AA8-5AE6-4255-B39B-51BE8BD20084"
+    },
+    "ownerScriptId": {
+        "uuid": "BF327083-9289-4CFC-88F8-E3A0B3DF5AAE"
+    },
+    "logicOperation": 1,
+    "resultType": 0,
+    "isInverted": false,
+    "triggers": [
+        {
+            "@class": "KeyTrigger",
+            "id": {
+                "uuid": "BCC66ED9-3A7A-4AAE-BC6D-B45FB69CE428"
+            },
+            "ownerScriptId": {
+                "uuid": "BF327083-9289-4CFC-88F8-E3A0B3DF5AAE"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "keyCode": 13,
+            "state": 2
+        },
+        {
+            "@class": "KeyTrigger",
+            "id": {
+                "uuid": "C9B9FCA5-972A-44DD-A0E0-6D5CD0E720F7"
+            },
+            "ownerScriptId": {
+                "uuid": "BF327083-9289-4CFC-88F8-E3A0B3DF5AAE"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "keyCode": 32,
+            "state": 2
+        }
+    ]
+}
