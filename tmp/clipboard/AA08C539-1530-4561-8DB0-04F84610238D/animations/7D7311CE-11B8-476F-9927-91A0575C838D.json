@@ -1,0 +1,39 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "7D7311CE-11B8-476F-9927-91A0575C838D"
+    },
+    "tracks": [
+        {
+            "@class": "TimeLineTrack",
+            "clips": [
+                {
+                    "@class": "TimeLineClip",
+                    "beginTime": 0,
+                    "duration": 3599,
+                    "script": "TimeLineClipScript",
+                    "behavior": {
+                        "@class": "TimeLineBehavior",
+                        "speed": 1.0,
+                        "weights": {}
+                    },
+                    "bindinglink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "59A9C929-B2D0-4EDF-96CF-86087EDC4DB5"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ],
+            "script": "TimeLineTrackScript",
+            "accessor": "TimeLineAccessor"
+        }
+    ]
+}

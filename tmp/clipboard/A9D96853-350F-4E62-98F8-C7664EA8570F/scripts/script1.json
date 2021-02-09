@@ -1,0 +1,75 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "1BA9ACF6-4B25-41C2-8F3F-4822043706FA"
+    },
+    "name": "Fist",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "8117F218-67BE-47CA-AF13-57CD92977F73"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "Shooter Pistol 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 0,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "mixamorig_Hips",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "mixamorig_Spine",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "mixamorig_Spine1",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine2",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 2,
+                                    "name": "mixamorig_RightShoulder",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_RightArm",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_RightForeArm",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightHand",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 4,
+                                                    "name": "Fist"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "A4A23F18-CA8F-4D5B-B476-D1DC1B219652"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": false
+}

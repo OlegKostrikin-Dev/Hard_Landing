@@ -1,0 +1,2447 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "4A095F4F-F8BA-4168-8DCF-B6A7DC593E2D"
+    },
+    "name": "Pistol Kneeling Idle.dae",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": true,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9D9A4896-3F3C-43F0-AC71-C34A0815DAAC"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6D910833-6E9F-421D-BCF4-05C14D68C906"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "4516BA3C-4B22-41AC-BC32-CCFDA43E9C33"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "16DD4AB1-3DE1-45F2-9614-A00DA16D3520"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "36D63749-042C-409C-939A-FEA161624AD1"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "26F4C1DC-FDF5-401E-9C9D-365F288B961A"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "05571A2A-9B6C-4362-A258-AE5499003439"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "85B72D5F-2CE7-4D23-97C5-60D8AF1D2142"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B2231343-8956-4228-ADB3-7BA69478B766"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D8D4DBDE-C142-4053-9FB5-81DBB1BAD106"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "98B564EA-198F-4BFB-BB84-3C00C6C78133"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "F288CA6D-7FA9-4FC8-BA17-4C5A7985B9FE"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1F5372EE-6C16-4D36-AED6-F91D7603FFD5"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0400EA6D-458E-4E72-B990-356AB1271904"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Neck"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B3A01F23-9D51-472D-9714-2E0513AFBFA7"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "09741DB3-A1E9-41BF-BEE6-123E0DF11278"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "BAD77DDF-2B6A-45EB-88B1-EA91B0339D1D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Neck",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_Head"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "9854AC06-A55D-42B4-A699-FE5DC16B8F4F"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "68114C3D-6527-40AF-A3A5-6C260C7D8021"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0FB30E25-2166-4EAF-9A85-E59343D561CF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7EE2E7F2-DD4D-4F1E-8406-D95AA2727B2A"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FC5CE7D0-97E9-4BC4-9041-4494429EA7B3"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A5903438-D51E-4657-86A8-646E14B79C8E"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "85F375DB-D68E-472E-936C-78012DF29AFA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "43B12A6A-8CAD-4370-BFB2-6AAC92E0B3AB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0A54B29F-2425-435E-8D74-B247BF5A4E0C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "1B778825-470D-462D-8FE0-51F3B28054FD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "151D3894-50BA-4E1F-A543-C3EA3AD7115B"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "40BAF5D5-61B1-4841-8173-DAEAC1641725"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "44C1B670-FC3B-4B0C-BFBE-4D3252150024"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "38D7DE91-4483-4DFB-B435-69BEAFDCFBBB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "4195634D-FC34-4D0F-BD14-01CD997CF112"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_LeftHandThumb1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "186CAEDB-51F3-4276-A98D-B5CB4389360E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "CC91A84A-99FF-444C-86E8-16BE220984AB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "276E4E3E-954F-4316-83EA-61835921BA97"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_LeftHandThumb1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandThumb2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "8871B4E2-B71E-4F9D-A194-F96D5FC68ABB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "356AB9D5-2DAA-4DB7-99F1-754BCF49CEAA"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6DAD7072-5033-483E-9DD4-765E775FEEAF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_LeftHandThumb1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandThumb2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_LeftHandThumb3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A20614AA-FBF7-4C0A-AFC4-EFBB75FF91A5"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5287FC5E-97A9-43BF-A2F1-F56A67536A93"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3087561F-CC5B-4FB6-896D-4D4515311D48"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 1,
+                                                            "name": "mixamorig_LeftHandIndex1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B3AAD656-4AD6-43B5-80AB-4B6631A1D851"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "99244888-4C13-4FAE-B7B1-BE13D67BBF14"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C6947FF6-7529-459A-BF70-D93E81CCE749"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 1,
+                                                            "name": "mixamorig_LeftHandIndex1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandIndex2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "79F84425-FBFB-4DCC-96C3-03027DF1DB8C"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0946CCB8-86F0-430D-A620-3BDEB567FAAE"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "384EA450-B594-4B12-AE88-F41733C559C3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 1,
+                                                            "name": "mixamorig_LeftHandIndex1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandIndex2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_LeftHandIndex3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "17688FEF-CED9-4205-84E6-948C4FAB6E80"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EEA509D8-6B62-4F62-A857-4C7CA8B39283"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1A7F2E7D-6FDD-479A-A87D-2B01543EC0C3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_LeftHandMiddle1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "E1DCCC8A-A66F-4C38-8C84-2120656B36C6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "250A0208-AA6C-44AB-84D0-682426CE9AEF"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "604CE24F-053A-4A3E-B7B5-6AECA96008B2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_LeftHandMiddle1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandMiddle2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A608EFC6-8FD8-4A7F-BB28-A32509E14019"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "075D5AA2-1C6B-4F6C-A963-875E3430264B"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E2BB27F2-F128-457E-9AEC-984F05803983"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 1,
+                                            "name": "mixamorig_LeftShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_LeftArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_LeftForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_LeftHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_LeftHandMiddle1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_LeftHandMiddle2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_LeftHandMiddle3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "F48830BF-7918-4951-A847-6F4585B020D2"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1445C850-EA9E-4AF7-82FE-369ADA332AA6"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1FA830DB-3EFE-4C26-81AF-3FB2B338FF65"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "DEE5360B-6B16-473E-874D-8A1B11425B5B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6355BBAF-1536-4874-BC54-29AE32FF67EF"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5DEE90FC-7A00-4420-A161-1A104536D5E6"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "6276E872-ED78-425A-B9EB-ED21CE0B7E35"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EEBB58EA-521F-4A2E-83D0-89D9BA6AFA56"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FBA46DA1-CC13-43D6-A2E3-2071E3B83419"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "0F18F350-2A0A-4E6B-9F53-C7BC0FF8ABD0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EAF9A0B1-4F95-4E2F-816F-04735E5670CE"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0AFF032E-2513-4A1A-9365-B23B16976921"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D46FC6F8-BEEB-4393-BE34-7A877F572E12"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "11D24286-6D22-4814-8FB2-03753C16CA89"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "ACC3C7BF-CA4D-48CA-82FA-1FA9F6641A57"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHandThumb1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "CAD6C187-8C63-4AFF-B6BC-075050F40688"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "ED54CD0B-41A4-4AF1-9C90-AAAB4ADFDDEB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "519F5FDE-559B-414C-B400-90C014D5CE64"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHandThumb1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandThumb2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "6801BED5-EDB3-48FF-8ACC-D9C916550645"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C65D30D9-5045-4E34-941E-20FFE0BBA9EB"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "115DC93A-5A11-43C4-A963-9F249D6C0D91"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHandThumb1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandThumb2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_RightHandThumb3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "88B1FDE2-CD86-4BE0-ABE9-D8C932144326"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "19AEDE61-3C26-4D3B-A0AD-89F9FD575873"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C8C7C201-59FC-47AC-B904-75487EA4B579"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_RightHandIndex1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B138A63C-D863-47A2-8D35-84CEE9455427"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "765C5CE4-7916-4424-B539-6A5C689AABF1"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C36241DF-D0BA-414D-8DD7-573883AF4A3B"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_RightHandIndex1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandIndex2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "05780B6F-3C96-4D72-A254-6F2CFD5F4461"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "53E68B2E-2AB2-4017-AC97-930C5678D304"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F23B5CBA-0C2B-459A-BBEA-DA0BAFDAAC40"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 2,
+                                                            "name": "mixamorig_RightHandIndex1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandIndex2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_RightHandIndex3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7090039A-7757-4567-A373-A48FB0C216F6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7308A91D-0148-4A14-B468-AED78EDCC0CE"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "EA40359A-C3AE-4CC5-9043-665BB5BCEEC9"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 3,
+                                                            "name": "mixamorig_RightHandMiddle1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C5D3B809-8574-4F95-ABAB-92DE8F4021FA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9CDFE26B-6032-4603-8569-11AC48293452"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "34ECDCF5-FC98-4D68-8946-5D1AA1448CB1"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 3,
+                                                            "name": "mixamorig_RightHandMiddle1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandMiddle2"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "8E11D05E-2D32-470D-A338-E50B6B9D50B0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AC4CAAB7-274E-4878-A50F-8F0D9C647301"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F600EA03-96ED-4384-8316-4CC1C86D93EB"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "mixamorig_Spine",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine1",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 2,
+                                            "name": "mixamorig_RightShoulder",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 0,
+                                                "name": "mixamorig_RightArm",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightForeArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightHand",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 3,
+                                                            "name": "mixamorig_RightHandMiddle1",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 0,
+                                                                "name": "mixamorig_RightHandMiddle2",
+                                                                "subaddress": {
+                                                                    "@class": "NodeRelativeAddressBase",
+                                                                    "index": 0,
+                                                                    "name": "mixamorig_RightHandMiddle3"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "56F35F98-D19A-42BE-B8EE-DD355E4A1888"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": false
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "06F2FDDF-6042-41E5-9FC6-7FC84658919A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A68A3C76-F47E-4A1A-8229-D400E4578699"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "mixamorig_LeftUpLeg"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "703134F7-0177-4A0B-AD9D-75ED03941B0F"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6270AB85-5849-4E85-A8A2-9F0FAE9F85D3"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5DD2A5ED-460B-4C39-97E5-FFEF9BCB6D82"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "mixamorig_LeftUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_LeftLeg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "376EFEDD-61ED-4A57-B189-A5E2305B4BAC"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "073FFD64-8D79-4D07-B1A2-B0CEE0017C94"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C2F74E4A-41B0-4FCD-A5B6-EFE0D150383C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "mixamorig_LeftUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_LeftLeg",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_LeftFoot"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "0496BCE8-4D5C-479C-A8CD-17A09CCA4189"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "546A97B1-9E3B-4825-BF99-05A8848B11FE"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "4696BE7B-EE67-469A-8C5E-7AC8B8348373"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "mixamorig_LeftUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_LeftLeg",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_LeftFoot",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_LeftToeBase"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "F9C59A0B-F115-4979-B1DC-8C504FC92025"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6137FDBA-DD27-4394-8DD0-8BF5D7C9D17E"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "32831AAF-AB8E-4D60-8F9C-A37D7D29CF07"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "mixamorig_RightUpLeg"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "9BA5F478-98CB-4303-AC3E-572C4D68CB95"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "33354536-CC5D-46ED-8D15-9AFAD6DD8EF8"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1A038F7C-874E-48C9-974E-4878DCE32EBB"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "mixamorig_RightUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_RightLeg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "2D6F571C-AA7B-436A-96E4-277CE3A25BF6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FA75C0BF-8D96-490B-A6D3-9F030D717F72"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3FA2A91C-0AFD-481E-A7B9-17029D9C24AD"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "mixamorig_RightUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_RightLeg",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_RightFoot"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "E02E90FB-4E11-4DDB-B158-45EEF8B220A4"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AFA15A55-5607-4FE6-9579-3E561D712D3A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "15C92942-FB0D-47BE-92AE-6CC129FE4E5F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Shooter",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "mixamorig_Hips",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "mixamorig_RightUpLeg",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_RightLeg",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_RightFoot",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_RightToeBase"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A8C1F18D-537C-4FC8-80A6-B117F11F206D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": true,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "A8A01A4F-CE45-4A98-8A77-EC4BA69196FA"
+            },
+            "ownerScriptId": {
+                "uuid": "4A095F4F-F8BA-4168-8DCF-B6A7DC593E2D"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "09D0371F-9FB3-462D-91B1-EBCC22DDBC49"
+                }
+            }
+        }
+    ]
+}

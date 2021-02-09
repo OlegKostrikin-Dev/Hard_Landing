@@ -1,0 +1,147 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "3C76EAAA-342E-431E-AD85-8E3D2F158FB8"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "698E508C-40C1-4D7E-A5B6-17DB00978257"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3272B8D7-4603-4DEE-8FCE-65BF17864659"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 7,
+                                    "name": "Jump Target Detector"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "DCE45B4B-BF2B-433E-9629-FF08260FB346"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "E726B99A-BD57-4D29-A973-A68997913B71"
+            },
+            "ownerScriptId": {
+                "uuid": "3C76EAAA-342E-431E-AD85-8E3D2F158FB8"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "D12C3168-902D-4C9F-AFE9-D6DAF7F77E40"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 4,
+                    "name": "Shooter Pistol 01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 22,
+                        "name": "Find Jump Target Detected"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "D8A8581E-309A-471D-854E-CAF6AAFBF39E"
+            },
+            "ownerScriptId": {
+                "uuid": "3C76EAAA-342E-431E-AD85-8E3D2F158FB8"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8A0145A9-F946-4D25-9181-3163A90DF8AB"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 4,
+                    "name": "Shooter Pistol 01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 11,
+                        "name": "Rotate Detected"
+                    }
+                }
+            }
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "EA4F94D8-0ACA-42B1-B56C-FE42669D1DDA"
+            },
+            "ownerScriptId": {
+                "uuid": "3C76EAAA-342E-431E-AD85-8E3D2F158FB8"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "53D69BF3-9631-4A2E-9E81-B93874818411"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "53D69BF3-9631-4A2E-9E81-B93874818411"
+                }
+            },
+            "allowed": false
+        }
+    ]
+}

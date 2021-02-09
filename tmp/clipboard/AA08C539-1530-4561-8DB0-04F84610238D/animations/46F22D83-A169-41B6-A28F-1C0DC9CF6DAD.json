@@ -1,0 +1,49 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "46F22D83-A169-41B6-A28F-1C0DC9CF6DAD"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "object__FCC243CC_463B_4824_AB8B_1333690631C2__JumForce"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "FloatVariableAccessor",
+            "attribute": "u"
+        }
+    ]
+}

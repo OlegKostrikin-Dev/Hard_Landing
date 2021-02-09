@@ -1,0 +1,62 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "5881F8EB-303E-4019-8816-6F609A8CEA67"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BE3D1841-CF5F-4368-A9CE-6175716B52BC"
+                },
+                "name": "Fist",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "2D1EFD67-CF4C-42C2-8729-D594BFC2F387"
+                    }
+                },
+                "animation": {
+                    "uuid": "2523828D-414B-4462-83CB-841EC04892EC"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "0741530C-1BFB-4242-BEB5-6547DF8E355F"
+            },
+            "ownerScriptId": {
+                "uuid": "5881F8EB-303E-4019-8816-6F609A8CEA67"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "9006EC1F-C1E0-4481-9995-91472020735D"
+                }
+            }
+        }
+    ]
+}

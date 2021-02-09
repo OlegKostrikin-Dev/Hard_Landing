@@ -1,0 +1,739 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B9F36C15-0761-4955-AFFA-421375D17BA7"
+    },
+    "name": "Bot_Shooter_01 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "CE37C87A-2E46-42C3-81E9-4A53B190722C"
+                },
+                "name": "Shooter_Body ",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "53D69BF3-9631-4A2E-9E81-B93874818411"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 4,
+                                    "name": "Body Pistol 01"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "5A04A4E8-5007-4363-A40B-F6AAD5D8B23E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AB918DEF-FEEF-4034-A40C-A15F4A702338"
+                },
+                "name": "Shooter_Front",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A885546F-1F47-470C-81E3-2168C104A301"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 6,
+                                    "name": "Shooter_Front"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "DCE56E0B-EC44-47EE-8444-8FB0B53597FA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A6E9ABF9-E59A-47B3-9222-BA3198560FF1"
+                },
+                "name": "Floating",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "2E46DE2A-F0A1-476D-A146-E8BFDE0AEBA3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "States",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Floating"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "74964D71-7F78-43FB-8F98-8B6CA15BA656"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "B2CEF413-D894-4612-8B32-B13F151E99A1"
+                },
+                "name": "Right Rotate Detector",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "89F82156-DC7D-49B9-96A3-B6FD16712F23"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "States",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 7,
+                                "name": "Right Rotate Detector"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "2DDA25B7-19B4-4D8C-8AAB-8E4F7C427BD9"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "8C7A7D01-A82D-45ED-9A13-EE80AEC2DCB5"
+                },
+                "name": "Left Rotate Detector",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5BA7D295-0023-4218-B470-BABBF0C998B3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 1,
+                            "name": "States",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 8,
+                                "name": "Left Rotate Detector"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "86A1D533-2D57-497C-A730-FF9C34CED1BD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6B83B6E7-C617-46AF-AD3D-047B2121AA75"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E204F127-6258-4156-A0F5-A603D9E1D341"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 13,
+                                    "name": "Death System",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "Death-1"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "31236416-1D14-4DEE-A951-72980DB1DD91"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EBF8C9C3-29A2-40A0-8AAF-D9240B402DB2"
+                },
+                "name": "Death-1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DC8142EF-3FCE-4345-B5B0-3F2FE9BC2AB2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 13,
+                                    "name": "Death System",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "Death-1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "Death-1"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "503A3F56-69DC-4BAD-AC8F-4FF7F1800AAA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AEB9F3B0-8A5A-4ECD-84FE-2C4C8F90B6B9"
+                },
+                "name": "Death-2",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A6E2584C-8561-4C7F-8204-FFD8325C9C82"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 13,
+                                    "name": "Death System",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 1,
+                                        "name": "Death-2",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "Death-2"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "E826FE38-4A6B-4A77-99DC-18E539FCE110"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A3AE13F3-7728-4174-B88F-DA2134441676"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5549D834-6842-4760-A177-D38FD5BC3F3E"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 13,
+                                    "name": "Death System",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 1,
+                                        "name": "Death-2"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "3EB796D2-7BD0-458B-B855-DB62FEBD4BAB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7F299BE9-B156-4EE6-AE98-9977FC9F0623"
+                },
+                "name": "Bullet Start",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E39FBEF1-7DDC-4593-9064-48DBB46E0FAD"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "mixamorig_Hips",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Spine2",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 2,
+                                                "name": "mixamorig_RightShoulder",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightForeArm",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHand",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 1,
+                                                                "name": "Bot Shooter 2 Bullet Start"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "8597136C-C4D4-4A4A-87E4-549604F1BEC5"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0DE76439-FF1E-40EC-9896-8402BEE2334C"
+                },
+                "name": "Sniper",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1E960414-6B5A-4941-9843-DAB90F74ED15"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Sniper"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7570428B-5070-4354-8263-0445F2B20BF0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "3E3EB519-F5DE-44E6-821B-C894CFEAF98A"
+                },
+                "name": "Inserted animations",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "014C58AA-20B0-4F15-A866-45E7E09A460C"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D07A178C-36D9-4AE0-8CAB-CF6378583921"
+                },
+                "name": "Monitoring Live",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A1D788DD-2EDF-4B6A-96BE-F4B049D1C2A4"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 13,
+                                    "name": "Death System",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 2,
+                                        "name": "Monitoring Live"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "4DA5C1BC-C8AC-4208-81FB-2B50FE1B84DA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1BA9ACF6-4B25-41C2-8F3F-4822043706FA"
+                },
+                "name": "Fist",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "8117F218-67BE-47CA-AF13-57CD92977F73"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "mixamorig_Hips",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Spine2",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 2,
+                                                "name": "mixamorig_RightShoulder",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightForeArm",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHand",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 4,
+                                                                "name": "Fist Shooter Pistol 01"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A4A23F18-CA8F-4D5B-B476-D1DC1B219652"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E39D9598-C8C4-4FEB-B5C9-B36852B3C9D8"
+                },
+                "name": "Gun_01",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F70230E9-E013-41DC-9DBC-D13A96794B1F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "mixamorig_Hips",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "mixamorig_Spine",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "mixamorig_Spine1",
+                                        "subaddress": {
+                                            "@class": "NodeRelativeAddressBase",
+                                            "index": 0,
+                                            "name": "mixamorig_Spine2",
+                                            "subaddress": {
+                                                "@class": "NodeRelativeAddressBase",
+                                                "index": 2,
+                                                "name": "mixamorig_RightShoulder",
+                                                "subaddress": {
+                                                    "@class": "NodeRelativeAddressBase",
+                                                    "index": 0,
+                                                    "name": "mixamorig_RightArm",
+                                                    "subaddress": {
+                                                        "@class": "NodeRelativeAddressBase",
+                                                        "index": 0,
+                                                        "name": "mixamorig_RightForeArm",
+                                                        "subaddress": {
+                                                            "@class": "NodeRelativeAddressBase",
+                                                            "index": 0,
+                                                            "name": "mixamorig_RightHand",
+                                                            "subaddress": {
+                                                                "@class": "NodeRelativeAddressBase",
+                                                                "index": 5,
+                                                                "name": "Gun_01"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "01CDE714-1928-4D54-ACB7-3C80D9C0C300"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "EA3AB4E7-2D83-403A-9D2E-4D276CF5A19A"
+            },
+            "ownerScriptId": {
+                "uuid": "B9F36C15-0761-4955-AFFA-421375D17BA7"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "89A44C56-DEFF-4CA1-84D6-F8E34C0167E0"
+                }
+            }
+        }
+    ]
+}

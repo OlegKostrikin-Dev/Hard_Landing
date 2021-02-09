@@ -1,0 +1,35 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "B621A76F-44F8-4EE9-B35B-4CA8917A9B4E"
+    },
+    "name": "Shooting Crouching",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "32D7F7D3-BCCB-40B2-849E-A9DF3ED36E9F"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "Shooter Pistol 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 1,
+                "name": "States",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 13,
+                    "name": "Shooting Crouching"
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "55A61714-886D-4357-937F-5C5298D02B01"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": true
+}

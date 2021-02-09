@@ -1,0 +1,99 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "2DC5C140-569F-41CA-916D-A415E9C3B11C"
+    },
+    "name": "Shooter Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6AF4C10A-C2F1-40B0-85DE-C7CB2B375508"
+                },
+                "name": "Inserted animations",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "8CDCC86E-01D9-44A8-8F34-4273DAF34820"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5BB878CE-7844-4504-89CF-61B28B941F71"
+                },
+                "name": "Not on Platform",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "04743F4F-EF4F-40E4-89B2-1C0785EDBC64"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Shooter Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Shooter",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Sensors",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 3,
+                                    "name": "Prepare to Die"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "BBCE944A-4702-47A9-8BA4-461DC0ED243A"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "1FC52072-DB58-4D11-8323-48010C001A1F"
+            },
+            "ownerScriptId": {
+                "uuid": "2DC5C140-569F-41CA-916D-A415E9C3B11C"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "E2AE9759-E2E2-4347-A2A1-E081725244D9"
+                }
+            }
+        }
+    ]
+}

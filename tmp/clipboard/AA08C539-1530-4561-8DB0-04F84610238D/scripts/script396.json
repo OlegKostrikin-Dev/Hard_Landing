@@ -1,0 +1,91 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "89889BAC-48BC-4D7C-9FC3-2201955ACB4F"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EED33121-A02E-4611-8FFF-680CC990088A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "CFD19FED-55C0-46CB-82D5-D1E19AAE9BAE"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 54,
+                        "name": "Light",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 7,
+                            "name": "Electric shock"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "2A922EBD-2270-47E6-8BBD-2D1030B3F298"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "5B1FAEC5-CDB1-4FAE-A273-807626E2812C"
+            },
+            "ownerScriptId": {
+                "uuid": "89889BAC-48BC-4D7C-9FC3-2201955ACB4F"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "CF9C949C-59D6-4F7D-9927-E62D70ABACDA"
+                }
+            }
+        },
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "8279300A-4E32-40E3-9AC0-5073C7735FF8"
+            },
+            "ownerScriptId": {
+                "uuid": "89889BAC-48BC-4D7C-9FC3-2201955ACB4F"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "493681F1-1694-4BB0-979A-29CF686399F1"
+                }
+            }
+        }
+    ]
+}
