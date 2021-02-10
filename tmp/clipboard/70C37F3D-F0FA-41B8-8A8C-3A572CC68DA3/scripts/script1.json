@@ -1,0 +1,35 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "D7E36B4C-A7ED-45E6-AE44-B446488B8010"
+    },
+    "name": "Active State",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "CEEDBD4A-308D-4C98-9EC1-F647A91B9920"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "New Shooter Pistol 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 1,
+                "name": "State Machine",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Active State"
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "55C819D2-C4EE-400A-B6B2-BECEE9FD4AC0"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": true
+}

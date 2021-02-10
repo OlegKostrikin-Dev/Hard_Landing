@@ -1,0 +1,46 @@
+{
+    "@class": "CollisionTrigger",
+    "id": {
+        "uuid": "A02AFA90-832D-455F-9733-E54BBBE04E2A"
+    },
+    "ownerScriptId": {
+        "uuid": "CBB6A59E-9A13-4223-BFB6-31DC800C7B2A"
+    },
+    "logicOperation": 0,
+    "resultType": 0,
+    "isInverted": false,
+    "eventType": "in",
+    "targetBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "C5DD6F6F-BDA7-4E97-BB57-C70EF3125135"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "New Shooter Pistol 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 0,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Sensors",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "Body Pistol 01"
+                    }
+                }
+            }
+        }
+    },
+    "zoneBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "4C7198F6-AF25-43D5-A405-E3E5BF533CD4"
+        }
+    },
+    "allowed": false
+}
