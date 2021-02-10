@@ -1,0 +1,35 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "57C3C0E2-5BEC-479F-85A6-D78EAC4CE895"
+    },
+    "name": "Active State",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "CEEDBD4A-308D-4C98-9EC1-F647A91B9920"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "Pangolin Pistol 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 1,
+                "name": "State Machine",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 0,
+                    "name": "Active State"
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "D0950CF6-9B1B-47FC-A510-2B27EBFD5847"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": true
+}
