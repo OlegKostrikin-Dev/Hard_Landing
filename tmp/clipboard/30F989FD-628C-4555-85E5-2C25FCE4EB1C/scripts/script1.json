@@ -1,0 +1,69 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "6624D13A-B6D2-4FCD-AE84-1B0DC0FFD5DF"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "871E80E5-36B5-48F0-B40A-231087B962EF"
+                },
+                "name": "MainCharacter",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "AA103623-F4AF-44FC-93DE-ECDF16421CDC"
+                    }
+                },
+                "animation": {
+                    "uuid": "F74C61AC-67C6-40C6-A006-FEE89631ED63"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "9E785E8B-75AB-4ADC-ACA8-A7DA6F1D5178"
+            },
+            "ownerScriptId": {
+                "uuid": "6624D13A-B6D2-4FCD-AE84-1B0DC0FFD5DF"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DFAD8647-0D8C-43FC-AAC9-971196A9A982"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "8117F218-67BE-47CA-AF13-57CD92977F73"
+                }
+            },
+            "allowed": false
+        }
+    ]
+}
