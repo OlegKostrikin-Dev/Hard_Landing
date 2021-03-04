@@ -1,0 +1,67 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "92288F2E-BA82-4859-9D73-4F9AF0435795"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D274F6C5-A297-4446-B5A8-166B89DB41EC"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "97B8779D-627D-4A1A-BAFA-0747AE9CCCF3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 30,
+                        "name": "Case 4"
+                    }
+                },
+                "animation": {
+                    "uuid": "1936AA6D-CDE8-473B-9848-6D31537A4E49"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "90DA9B7C-504F-4E8B-AA47-1D90FC4FEE6F"
+            },
+            "ownerScriptId": {
+                "uuid": "92288F2E-BA82-4859-9D73-4F9AF0435795"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 2,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DC472C6B-A341-439A-9FED-4D802FA28ED7"
+                }
+            }
+        }
+    ]
+}

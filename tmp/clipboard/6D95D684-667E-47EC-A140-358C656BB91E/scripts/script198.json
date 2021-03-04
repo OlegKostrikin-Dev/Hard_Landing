@@ -1,0 +1,67 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "1E8E5E3B-FAF6-47D6-8702-457A31D934C4"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "532A3EB5-4871-412A-9443-522CEA89AAA3"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3F5A3554-CE14-405E-B95B-4C6D41B79CF0"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 38,
+                        "name": "HelmetLighting:Lighting 8"
+                    }
+                },
+                "animation": {
+                    "uuid": "E0BD42F6-FBA9-4474-904C-0F0E90AF993E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "28D64F04-0506-40C5-B5E5-11337A61C550"
+            },
+            "ownerScriptId": {
+                "uuid": "1E8E5E3B-FAF6-47D6-8702-457A31D934C4"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DC472C6B-A341-439A-9FED-4D802FA28ED7"
+                }
+            }
+        }
+    ]
+}

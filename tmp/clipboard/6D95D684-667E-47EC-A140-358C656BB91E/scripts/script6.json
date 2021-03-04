@@ -1,0 +1,67 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "2325202E-71CC-420C-8702-A897A42DC206"
+    },
+    "name": "Animation 1",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "BB945D81-CEAA-4948-9554-47A7B0838873"
+                },
+                "name": "Light",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "763551A6-013C-48B4-A788-9804B5E36316"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Electro Shock"
+                    }
+                },
+                "animation": {
+                    "uuid": "80B57704-C1F4-446C-B480-23DA52D0ECEB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "79B24DC1-9F3B-4E89-8165-53AB5DED9317"
+            },
+            "ownerScriptId": {
+                "uuid": "2325202E-71CC-420C-8702-A897A42DC206"
+            },
+            "logicOperation": 0,
+            "resultType": 3,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "6098CD78-89B2-4F31-898F-3D42BFB865C9"
+                }
+            }
+        }
+    ]
+}

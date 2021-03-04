@@ -1,0 +1,104 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "EDA0C3F0-FDF3-49B0-8277-B70DC3D72F98"
+    },
+    "name": "FlyBot_body 2 Animation 1",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "26A33491-EE32-4D17-8A01-0C6A6E795FAF"
+                },
+                "name": "s",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "13BC9A2C-237D-4074-871C-4B4F91C32811"
+                    }
+                },
+                "animation": {
+                    "uuid": "CABDCF5E-F643-40F3-99EB-9F21DBF489E2"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6066D653-AAAC-4952-AE0C-20495DF6252E"
+                },
+                "name": "FlyBot_body 2",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FF4B2159-FCCD-402D-9DF2-2938C83E22A0"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 5,
+                        "name": "Sphere"
+                    }
+                },
+                "animation": {
+                    "uuid": "18EA895D-4D5C-40CE-992C-39E4701E39A1"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "46229AFD-7009-497B-B1C2-CEB19EC415CD"
+            },
+            "ownerScriptId": {
+                "uuid": "EDA0C3F0-FDF3-49B0-8277-B70DC3D72F98"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DC472C6B-A341-439A-9FED-4D802FA28ED7"
+                }
+            }
+        }
+    ],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "AF5564D7-3425-4588-A096-AFF4265BEAE2"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "13BC9A2C-237D-4074-871C-4B4F91C32811"
+                },
+                "name": "s",
+                "type": "float",
+                "value": 0.20999999344348908
+            }
+        ]
+    }
+}

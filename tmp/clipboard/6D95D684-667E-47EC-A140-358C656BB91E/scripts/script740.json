@@ -1,0 +1,134 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "BD0AA7C4-5FFB-4D5D-B836-7CADA773D3EC"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FF3AB232-1F0A-4794-8E33-F192291D692A"
+                },
+                "name": "AnimationScript",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F657CB33-69AC-4EFF-B618-105DEC6BA0C2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Ray 3",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "FX_TrapLighting_01-T"
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "70350006-9217-48F3-95A5-A5C95376B927"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EF82C82C-8566-4239-A41D-E73E3906475D"
+                },
+                "name": "Ray 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "05BB8FF0-3E65-431F-B2C6-9F5FBF91FDD0"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 2,
+                        "name": "Ray 3"
+                    }
+                },
+                "animation": {
+                    "uuid": "0684D8B7-6C1B-407E-9A3C-A1D5923E3EE7"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7EB5AB13-F631-477D-9D63-DB1BEE7867F0"
+                },
+                "name": "r",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "16467C14-4C0A-41A7-93B9-8AD0A5D8A10A"
+                    }
+                },
+                "animation": {
+                    "uuid": "EB0EAE42-D158-45CA-AB68-353076B184DE"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "85F4D75F-BAC9-4BF7-8D04-41EFD45EFA18"
+            },
+            "ownerScriptId": {
+                "uuid": "BD0AA7C4-5FFB-4D5D-B836-7CADA773D3EC"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "00D1A175-70B3-4FA8-9EBC-473C26D83F6B"
+                }
+            }
+        }
+    ],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "6BD389A6-7509-490D-89AA-F26A884D13E7"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "16467C14-4C0A-41A7-93B9-8AD0A5D8A10A"
+                },
+                "name": "r",
+                "type": "float",
+                "value": 1.0
+            }
+        ]
+    }
+}
