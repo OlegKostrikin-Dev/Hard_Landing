@@ -1,0 +1,36 @@
+{
+    "@class": "CollisionTrigger",
+    "id": {
+        "uuid": "977095C9-C5D4-4020-9672-17CA0FA27CDD"
+    },
+    "ownerScriptId": {
+        "uuid": "05547EE4-CDE9-4397-8402-FCBA4733D93C"
+    },
+    "logicOperation": 0,
+    "resultType": 0,
+    "isInverted": false,
+    "eventType": "inside",
+    "targetBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "5A765F82-0D41-4280-9EEF-2EECB7338D5E"
+        }
+    },
+    "zoneBindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "D3880E4B-880D-410C-B88E-ECF6CFD66762"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 0,
+            "name": "Minion-BG",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 2,
+                "name": "Body "
+            }
+        }
+    },
+    "allowed": false
+}
