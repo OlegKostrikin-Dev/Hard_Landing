@@ -1,0 +1,139 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "60F57299-4456-4622-8DF1-276A7A790FDB"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D5ABAF43-EE22-477A-8BF8-DDED3842A0ED"
+                },
+                "name": "Bot Health",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "B128F619-30D8-4CBD-B346-FE5CE2E923BF"
+                    }
+                },
+                "animation": {
+                    "uuid": "7C8D4009-52C1-4E93-95C6-F916E9DFFD41"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "30ED19DB-6B0D-42F4-B551-5BAA2D299295"
+                },
+                "name": "Monitoring Live",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A14A8CA7-6BC3-47A7-B5DA-A2BDF678691F"
+                    }
+                },
+                "animation": {
+                    "uuid": "5EC58D17-32C5-450A-8401-7FF0035DB627"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "716B4B60-454D-4C19-B951-E341271B15BA"
+                },
+                "name": "Monitoring Live",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3E6A38DE-7256-4E25-9742-8C2AA469E1FE"
+                    }
+                },
+                "animation": {
+                    "uuid": "830B1BD3-06D9-44A7-8464-637CF62CB699"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "FE5D7824-46E6-4E41-A8D1-38897A018215"
+                },
+                "name": "Monitoring Live",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C4323BDC-F40B-4075-94C0-E8F1FE14C533"
+                    }
+                },
+                "animation": {
+                    "uuid": "3FB1073F-E521-4AFB-B545-72F37B1E3DD3"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "53012E18-C2AC-4700-A497-CF5D00ED6458"
+                },
+                "name": "Inserted animations",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink"
+                },
+                "animation": {
+                    "uuid": "57FE8AC8-5CA9-4D88-A128-EEA679C422A0"
+                },
+                "AnimationType": "timeline",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "56D7556C-DFA6-4C7D-B807-E42A1918A669"
+            },
+            "ownerScriptId": {
+                "uuid": "60F57299-4456-4622-8DF1-276A7A790FDB"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 1,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "431D3AB3-8EDA-4AF9-9D94-C05734461846"
+                }
+            }
+        }
+    ]
+}
