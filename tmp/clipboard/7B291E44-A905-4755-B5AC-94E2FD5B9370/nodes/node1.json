@@ -1,0 +1,149 @@
+[
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "8A2B3050-E8E9-4E83-9257-334B0D957A19"
+            },
+            "name": "Fx",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "geometry": {
+                "@class": "BaseComponentGeometry",
+                "meshId": {
+                    "uuid": "2302B2E7-5E28-4FBF-AA01-F3E7CC9BF495"
+                },
+                "static": false,
+                "shadowCast": true,
+                "shadowReceive": true
+            },
+            "material": {
+                "@class": "BaseComponentMaterial",
+                "materialId": {
+                    "uuid": "3CDD3933-1EC1-420B-A9E4-DCD2981520D0"
+                },
+                "mapsStates": 127
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.1920930376163597e-7,
+                        1.0,
+                        0.0,
+                        0.0,
+                        -1.0,
+                        -1.1920930376163597e-7,
+                        0.0,
+                        0.0029296875,
+                        0.0000019073486328125,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.1920929798847624e-9,
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        -0.009999999776482582,
+                        -1.1920929798847624e-9,
+                        0.0,
+                        73.24319458007813,
+                        0.08964445441961289,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "Fx",
+                "importedName": "Fx",
+                "isBone": false
+            }
+        },
+        "children": [
+            "6916CC1F-5223-4091-942B-415BBAC34D51"
+        ]
+    },
+    {
+        "@class": "BaseNode",
+        "object3D": {
+            "@class": "BaseObject3D",
+            "id": {
+                "uuid": "6916CC1F-5223-4091-942B-415BBAC34D51"
+            },
+            "name": "Pulse",
+            "enabled": true,
+            "visible": true,
+            "hitVisible": true,
+            "timeline": {
+                "@class": "BaseComponentTimeline",
+                "timelineId": {
+                    "uuid": "0A5A7705-FE4D-4375-85DD-1408E0660A1D"
+                }
+            },
+            "transform": {
+                "@class": "BaseComponentTransformable",
+                "localTransforms": {
+                    "values": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "globalTransforms": {
+                    "values": [
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.1920929798847624e-9,
+                        0.009999999776482582,
+                        0.0,
+                        0.0,
+                        -0.009999999776482582,
+                        -1.1920929798847624e-9,
+                        0.0,
+                        73.24319458007813,
+                        0.08964445441961289,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "metadata": {
+                "importedIdentifier": "",
+                "importedName": "",
+                "isBone": false
+            }
+        }
+    }
+]

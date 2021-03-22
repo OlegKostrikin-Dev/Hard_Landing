@@ -1,0 +1,29 @@
+{
+    "@class": "AnimationTrigger",
+    "id": {
+        "uuid": "1855590E-4951-4A01-9B88-C8FC53C11021"
+    },
+    "ownerScriptId": {
+        "uuid": "2814C9CE-FAC3-42DB-9680-21924A18FCDD"
+    },
+    "logicOperation": 0,
+    "resultType": 0,
+    "isInverted": false,
+    "event": 2,
+    "bindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "C26CC5D8-59FF-473A-9CAB-2D307C80823A"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 63,
+            "name": "Shooting",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 1,
+                "name": "Bullet Flight"
+            }
+        }
+    }
+}
