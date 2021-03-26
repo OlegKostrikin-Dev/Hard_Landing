@@ -1,0 +1,39 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "E418921E-AD54-49BB-8F02-9A6465A1CFD3"
+    },
+    "tracks": [
+        {
+            "@class": "SoundTrack",
+            "clips": [
+                {
+                    "@class": "SoundClip",
+                    "beginTime": 0,
+                    "duration": 392,
+                    "script": "SoundClipScript",
+                    "behavior": {
+                        "@class": "SoundSampleBehavior",
+                        "volume": 1.0,
+                        "volumeModulation": 0.0,
+                        "pitch": 1.0,
+                        "pitchModulation": 0.0,
+                        "soundSampleId": {
+                            "uuid": "235FBF00-6D38-4680-A185-FF24EEE853A0"
+                        }
+                    },
+                    "color": {
+                        "values": [
+                            0.8509804010391235,
+                            0.5882353186607361,
+                            0.2549019753932953
+                        ]
+                    }
+                }
+            ],
+            "script": "SoundTrackScript",
+            "accessor": "AudioSourceAccessor",
+            "volume": 0.7307942509651184
+        }
+    ]
+}
