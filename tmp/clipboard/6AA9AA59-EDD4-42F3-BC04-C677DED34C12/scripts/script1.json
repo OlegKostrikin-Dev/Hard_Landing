@@ -1,0 +1,35 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "3B024C79-3B6E-422A-91DB-5E4D9B164B46"
+    },
+    "name": "Shooter Speaker",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "44B4D280-0AE1-46B8-B7D4-DDD805DB086C"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 11,
+            "name": "Torturer Rifle 01",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 1,
+                "name": "Shooter",
+                "subaddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 2,
+                    "name": "Shooter Speaker"
+                }
+            }
+        }
+    },
+    "animation": {
+        "uuid": "AB056781-DF64-45CD-A804-72D3CEF733AC"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": true
+}

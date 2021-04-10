@@ -1,0 +1,30 @@
+{
+    "@class": "AnimationScript",
+    "id": {
+        "uuid": "1FD5DFEB-067C-4AAD-97B5-07574516E865"
+    },
+    "name": "Shooter Speaker",
+    "enableOnAwake": false,
+    "OwnerLink": {
+        "@class": "BindingLink",
+        "targetId": {
+            "uuid": "53B697FD-A6C1-4732-8AB4-F2F960BE2D9C"
+        },
+        "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 1,
+            "name": "Shooter",
+            "subaddress": {
+                "@class": "NodeRelativeAddressBase",
+                "index": 2,
+                "name": "Shooter Speaker"
+            }
+        }
+    },
+    "animation": {
+        "uuid": "CE1451EA-7320-4AF1-A8C7-5D2193B3B1BD"
+    },
+    "AnimationType": "object3D",
+    "is_imported": false,
+    "isEnabled": true
+}
