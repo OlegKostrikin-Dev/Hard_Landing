@@ -1,0 +1,84 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "519871E0-3831-4DAA-8B0F-82B0DC2803C7"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "F045255C-613D-411D-BDAB-5E0F1EF22ACA"
+                },
+                "name": "TXT_STARSHIP_DIAGNOSTIC",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DDD9C049-1042-40E3-94D5-FF445BF77487"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 4,
+                        "name": "TXT_STARSHIP_DIAGNOSTIC"
+                    }
+                },
+                "animation": {
+                    "uuid": "A3F6945E-B966-435F-95D5-D6DBBBC3E171"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "890AE91B-91F8-4544-89F9-3F4C89611B5F"
+                },
+                "name": "offset",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6E5FFFD3-9105-45B4-99B4-18F6C0C5CF4B"
+                    }
+                },
+                "animation": {
+                    "uuid": "BD3CB960-8044-436F-B780-976397BAB0C3"
+                },
+                "AnimationType": "avar",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [],
+    "symbolTable": {
+        "@class": "VariousSymbolTable",
+        "id": {
+            "uuid": "BF59349A-FB9B-4B27-B039-85C992CB4556"
+        },
+        "variables": [
+            {
+                "@class": "VariantVariable",
+                "id": {
+                    "uuid": "6E5FFFD3-9105-45B4-99B4-18F6C0C5CF4B"
+                },
+                "name": "offset",
+                "type": "float",
+                "value": 0.05550000071525574
+            }
+        ]
+    }
+}
