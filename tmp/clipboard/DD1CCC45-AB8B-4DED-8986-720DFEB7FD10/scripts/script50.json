@@ -1,0 +1,145 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "E8343746-D1CE-4CE6-9BA5-B13E1BD8ECD2"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1A23B948-8A27-4CB9-9809-45F351A87812"
+                },
+                "name": "5. Floating",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DAC6F846-F123-4BB6-A19A-AED690148BBF"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 6,
+                                "name": "5. Floating"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "F552E5C8-8717-4AE1-8564-EE40ED91139D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "6FF1DAAC-D405-4852-A084-13463941EBB1"
+            },
+            "ownerScriptId": {
+                "uuid": "E8343746-D1CE-4CE6-9BA5-B13E1BD8ECD2"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "DCCAF36F-22AB-4B80-AA12-E05E58ADB0AE"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "Torturer Pistol 01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "State Machine",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Active State"
+                        }
+                    }
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "E021231A-B3D7-4853-A9AD-26503ACF8E6E"
+                },
+                "targetRelativeAddress": {
+                    "@class": "NodeRelativeAddressBase",
+                    "index": 3,
+                    "name": "Torturer Pistol 01",
+                    "subaddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "State Machine",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 6,
+                            "name": "5. Floating",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "5.1 Landing Allowed"
+                            }
+                        }
+                    }
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "E2A81E4F-DD98-4573-84C3-9DD9535BD7B3"
+            },
+            "ownerScriptId": {
+                "uuid": "E8343746-D1CE-4CE6-9BA5-B13E1BD8ECD2"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "allowed": false
+        }
+    ]
+}

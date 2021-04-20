@@ -1,0 +1,135 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "4BB3856D-C463-4F99-BA5F-51374EA2B65B"
+    },
+    "name": "Shooter Rifle 01 Animation 1",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E1FEB28D-AA06-41F0-BB42-E337C2F08F8E"
+                },
+                "name": "Shoot",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "2B44E7DD-9CA1-4574-923B-5B2CE502A28E"
+                    }
+                },
+                "animation": {
+                    "uuid": "7C6F5ABA-8912-4BAE-A019-C7590A99BDF5"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "4716AE37-C080-49F1-83F4-CB86A73B2C2C"
+            },
+            "ownerScriptId": {
+                "uuid": "4BB3856D-C463-4F99-BA5F-51374EA2B65B"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "GroupTrigger",
+            "id": {
+                "uuid": "AB826167-34D8-42F3-8650-CE021C544BCF"
+            },
+            "ownerScriptId": {
+                "uuid": "4BB3856D-C463-4F99-BA5F-51374EA2B65B"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "triggers": [
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "9A1AD155-725D-4B93-ACBC-9A203411B42B"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "4BB3856D-C463-4F99-BA5F-51374EA2B65B"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0B0BE027-2736-44B4-804E-C7444C04C1DD"
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "A1BB83EA-5428-485E-A7F0-80B94B0DAB30"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "5321484B-7415-4C36-8883-F71EAD6160F6"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "4BB3856D-C463-4F99-BA5F-51374EA2B65B"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0B0BE027-2736-44B4-804E-C7444C04C1DD"
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "9FA9B470-D1EB-42B7-9758-099B657D6114"
+                        }
+                    },
+                    "allowed": false
+                }
+            ]
+        }
+    ]
+}

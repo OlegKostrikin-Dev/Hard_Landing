@@ -1,0 +1,957 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "320831CD-EBA6-49C2-9BC7-378A8B4955F5"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1A3E2D4F-FBF5-4215-96F2-0D762AFE3518"
+                },
+                "name": "SActiveState",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "89421C86-1336-48AC-A886-9DC8B55B4F00"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Active State",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SActiveState"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "09DF5497-BEDC-4E65-93BE-E724E88C082E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "273294CA-D26D-404B-9E69-E1F3D46BA59D"
+                },
+                "name": "SAimingCrouching",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "7EC68C30-E586-4652-B150-B6AA89436437"
+                    }
+                },
+                "animation": {
+                    "uuid": "0612A074-3302-430F-9A81-B4C91FBAD2F7"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5E960788-ABC1-4426-BA62-D6E44C28F68A"
+                },
+                "name": "SBarrierDetected",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A358A788-9967-45E2-9C25-BA872D7350DD"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 19,
+                                "name": "17. Run Backward",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SRun Backward"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D442FC54-1687-433E-862C-7E8AF34F18FD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7BCF6B2F-B48B-41A1-80E1-E247FE0F0664"
+                },
+                "name": "SAgony",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C070BF86-D956-4540-9E83-F9990CDB9422"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "0. Agony",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SAgony"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "EE6C0ED1-B3CA-4C40-8F12-F0E1F3FA5866"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "39266525-9A78-4233-9D30-551A1788E0BC"
+                },
+                "name": "SAiming",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "FF684868-5353-42F4-8789-1FF2E1E790C5"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "1. Aiming",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SAiming"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C375400D-25C0-40FD-A2A7-CA150AA9AED3"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9CD6E46E-2CC6-41B7-AD5C-197B5B13118A"
+                },
+                "name": "SAnnoyed",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "6234C41B-1967-496E-AB5C-E761F81DF69A"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "2. Annoyed",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SAnnoyed"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "146BFA78-BF73-405F-95C6-59508F8C6458"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "1E638DC4-BB61-40AA-ACEF-8486A79ABEA3"
+                },
+                "name": "SBeat",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C76E8B48-71D1-4B94-943A-6D0922BA4E8E"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "3. Beat",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SBeat"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "359C0D7A-F4F0-413E-8DA3-2FB7E52496BA"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "750306E8-5E79-4737-940D-78B0C5478120"
+                },
+                "name": "SDeath",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1DA14680-1927-4296-80D7-4998B15D7E8E"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 5,
+                                "name": "4. Death",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SDeath"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A780510A-145A-4B2E-8DAF-57C4FF9C41AD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "05438E59-C4C3-40C5-9E5B-86F612110D08"
+                },
+                "name": "SFloating",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "AA237313-041B-4F6D-90A9-094F68AF3E64"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 6,
+                                "name": "5. Floating",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SFloating"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "6396A0AA-F5B1-4C2E-8202-33C345E65A4D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "E951B421-1971-4F8E-A02D-6A37C637CBB6"
+                },
+                "name": "SJumping",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C8A47AA8-BA37-4CD4-8AB4-6903D80B3E58"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 7,
+                                "name": "6. Jumping",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SJumping"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "4556586B-AE50-400E-A0AF-EF6867FEDACB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "38394DD3-78C3-4FE5-B278-6B2AB8776C21"
+                },
+                "name": "SLanding",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "A014660A-74D7-41FA-98C1-FC14826C7E36"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 8,
+                                "name": "7. Landing",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SLanding"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "89C66EED-5D08-4F71-9386-19D353A02976"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "F7786748-F93D-4F8C-94CB-55D45E4BEF0A"
+                },
+                "name": "SPursing Not Shooting",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "3223640A-A85F-4BBE-923A-2A253A5A815F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 9,
+                                "name": "8. Pursing Not Shooting",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SPursing Not Shooting"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "1FFE9D1F-BC07-4F43-A8CD-E47C38CC9C81"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "54195EDC-3807-4AB9-851C-A2AFC3AAD054"
+                },
+                "name": "SPursing Shooting",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "920274BB-9C4C-4004-AED9-B6F997EBCE4F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 10,
+                                "name": "9. Pursuing Shooting",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SPursing Shooting"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C288617F-38E1-441E-82A0-21F950DF4EC0"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "B3D9BE24-94DF-444C-B90D-BAC31B0B4B00"
+                },
+                "name": "SShooting Crousching",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0F80CF6B-7313-493C-B594-4C47A2F3B976"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 11,
+                                "name": "10. Shooting Crouching",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SShooting Crousching"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "62044125-556A-4359-99C4-481BFA57DA3D"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "41C640BE-632E-4966-829C-4A1C7BAC5FBC"
+                },
+                "name": "SShooting Stay",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "31249A2B-8838-4997-86B2-345CE614939A"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 12,
+                                "name": "11. Shooting Stay",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SShooting Stay"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C2D0AED4-AB3F-4C1E-AD03-4698B76D9E52"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "A7902646-9BF3-4B47-A4AE-19A017ECAD88"
+                },
+                "name": "SRescanSpace Stay",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0503AE90-DC24-4F16-8033-9F89D727551C"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 13,
+                                "name": "12. ScanSpace",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SScanSpace Stay"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "54464023-7CBC-463F-AA36-3E9CEBCFA8F8"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "53409F21-2C9D-436C-A043-B54BC3CCE3E0"
+                },
+                "name": "SAfterFloating",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E430D78C-B699-487F-BDFF-E22C47F560D6"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 14,
+                                "name": "13. After Landing",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SAfterLanding"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "077730B8-E2BA-4F93-8CE0-B59828870647"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "722CB7EF-ACB4-4E19-810F-2B262677D357"
+                },
+                "name": "STargetDetectionForJumping",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "158C444E-8F34-4C20-8C89-A9EF07CB3C5F"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 15,
+                                "name": "14. Target Detection for Jumping",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "STargetDetectionForJumping"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "25C4AECB-8AD9-4170-83D8-1692B6C852FB"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "6025A7B6-81B3-4C7A-BAAD-CC860408B52E"
+                },
+                "name": "SPreparationForJump",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C43A1FFA-2580-4F40-BE05-6AF41D13E425"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 16,
+                                "name": "15. Preparation for Jump",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "SPreparationForJump"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "B9F2B0E7-A99C-400D-9B6A-5A85F8C5D2F5"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "D2271BC2-D731-4F82-A7C1-859A9F28B35D"
+                },
+                "name": "SShoot",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C5B38632-480C-41EE-B3A1-A3296C0981D2"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 21,
+                                "name": "Shoot System",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Shoot",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "SShoot"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D3820136-3319-4DD2-9ED1-3858BB75CA44"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "EEEE010D-95EB-490E-97CA-E9F7200B781B"
+                },
+                "name": "Shoot On",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "06D88D01-1179-48A9-92F1-047F1224869A"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 21,
+                                "name": "Shoot System",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 2,
+                                    "name": "Shoot On",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "Shoot On"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "FC37D760-88F0-432C-BD5A-9044BEAEDAEC"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "5FCC221E-21CA-428C-A18F-6FAB84FFCC2C"
+                },
+                "name": "Shoot Off",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "5A5D2B84-AF69-421F-B0BE-24FA2D414C4D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 21,
+                                "name": "Shoot System",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 3,
+                                    "name": "Shoot Off",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 0,
+                                        "name": "Shoot Off"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "D49529E1-DB85-469B-8608-C329B99AE115"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "2FE6FEE9-9A92-4091-B7D8-9B1EEC13E802"
+                },
+                "name": "Gun_01",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E925BCC8-4194-4970-A7BE-3E2CB949E5D8"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 21,
+                                "name": "Shoot System",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "Gun_01"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C391264D-B787-44FE-9F02-E3B7FF851420"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0CD29AC5-5506-4683-B695-1C4BC46C02D7"
+                },
+                "name": "Cylinder",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "95BA663B-564C-47D2-AD4D-7DA90D30C36E"
+                    }
+                },
+                "animation": {
+                    "uuid": "E98D37DC-8EDB-456B-B1ED-CDB3495FB148"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": []
+}

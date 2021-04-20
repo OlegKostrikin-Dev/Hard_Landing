@@ -1,0 +1,62 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "98AB9122-923B-46AB-B336-F87D6584E0DD"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "loop": true,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "CE2573EF-8687-4AD2-8747-319ADD3E6D1E"
+                },
+                "name": "Shooter Speaker",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "7BCB72E2-4275-4C69-8ED5-3F673EF0F17B"
+                    }
+                },
+                "animation": {
+                    "uuid": "2210F7F3-A3F5-43A7-8F59-2FB4D12E6DB1"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "AnimationTrigger",
+            "id": {
+                "uuid": "37ED8227-BEEA-4810-BCE1-6664F0AD6B6D"
+            },
+            "ownerScriptId": {
+                "uuid": "98AB9122-923B-46AB-B336-F87D6584E0DD"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "event": 3,
+            "bindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "48FD5BAC-517C-4A39-B5C3-D2B24418BD0C"
+                }
+            }
+        }
+    ]
+}

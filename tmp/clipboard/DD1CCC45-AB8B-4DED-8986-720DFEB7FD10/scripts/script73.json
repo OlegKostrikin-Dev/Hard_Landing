@@ -1,0 +1,480 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+    },
+    "name": "TimeLineScript",
+    "enableOnAwake": false,
+    "loop": false,
+    "jumpToFirstFrameAtEnd": false,
+    "speed": 1.0,
+    "weight": 1.0,
+    "loopStartTime": 0,
+    "loopDuration": 0,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "9AF43297-6E7C-4BE0-AA1C-4CF9D2F99537"
+                },
+                "name": "Active State",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "DCCAF36F-22AB-4B80-AA12-E05E58ADB0AE"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 3,
+                        "name": "Torturer Pistol 01",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "State Machine",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 0,
+                                "name": "Active State"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "611B4B5E-38A5-43F7-AC66-CF85ADB03DF6"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "79320801-44C7-4080-8EBB-B50F830E47DF"
+            },
+            "ownerScriptId": {
+                "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "eventType": "inside",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "targetId": {
+                    "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                }
+            },
+            "allowed": false
+        },
+        {
+            "@class": "GroupTrigger",
+            "id": {
+                "uuid": "7460242A-95D8-4B49-91F4-F701636F6754"
+            },
+            "ownerScriptId": {
+                "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "triggers": [
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "3692EFD1-68DC-40E9-91E5-AAC5BC574869"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "out",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "62A926E1-6F3F-4D9E-B3AD-61027452ACF1"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 7,
+                                        "name": "Torturer Front"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0B50144C-CF53-4DFF-9AC3-23E803CCB86A"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "F9D6F292-1810-492C-A1D3-907A29B8B1DD"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "out",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "62A926E1-6F3F-4D9E-B3AD-61027452ACF1"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 7,
+                                        "name": "Torturer Front"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0A3881CA-5EC9-419B-A0DF-35C0870B402A"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "48F044DC-B9DF-4F09-B897-38E264DC1B3D"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "out",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "62A926E1-6F3F-4D9E-B3AD-61027452ACF1"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 7,
+                                        "name": "Torturer Front"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "7DF05DC4-B41D-4D89-BDE0-8078CD1C777D"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "056B292A-17AA-4A56-BBE5-268CB4EC6D11"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "out",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "62A926E1-6F3F-4D9E-B3AD-61027452ACF1"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 7,
+                                        "name": "Torturer Front"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "4C7198F6-AF25-43D5-A405-E3E5BF533CD4"
+                        }
+                    },
+                    "allowed": false
+                }
+            ]
+        },
+        {
+            "@class": "GroupTrigger",
+            "id": {
+                "uuid": "BA11C5BE-4C28-4BD4-8E0F-4F15AB8022AF"
+            },
+            "ownerScriptId": {
+                "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "triggers": [
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "EFDA0AF8-3069-425C-A147-B7B671651A40"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 1,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 5,
+                                        "name": "Body Torturer P 01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "7DF05DC4-B41D-4D89-BDE0-8078CD1C777D"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "67133769-7E4C-46D6-9DE8-534F31B3925A"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 5,
+                                        "name": "Body Torturer P 01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0A3881CA-5EC9-419B-A0DF-35C0870B402A"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "CC5A8F3F-580C-4D6A-82A1-57A176AB6ECE"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 5,
+                                        "name": "Body Torturer P 01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "0B50144C-CF53-4DFF-9AC3-23E803CCB86A"
+                        }
+                    },
+                    "allowed": false
+                },
+                {
+                    "@class": "CollisionTrigger",
+                    "id": {
+                        "uuid": "83C01812-7426-49BF-A39B-5BF4A1E2AE17"
+                    },
+                    "ownerScriptId": {
+                        "uuid": "C4E2C484-20BB-4A76-AE6D-C977698F1616"
+                    },
+                    "logicOperation": 0,
+                    "resultType": 0,
+                    "isInverted": false,
+                    "eventType": "inside",
+                    "targetBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "67A77629-9160-4196-9BCB-56119BBCE5CD"
+                        },
+                        "targetRelativeAddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 3,
+                            "name": "Torturer Pistol 01",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 1,
+                                "name": "Shooter",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Sensors",
+                                    "subaddress": {
+                                        "@class": "NodeRelativeAddressBase",
+                                        "index": 5,
+                                        "name": "Body Torturer P 01"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "zoneBindingLink": {
+                        "@class": "BindingLink",
+                        "targetId": {
+                            "uuid": "4C7198F6-AF25-43D5-A405-E3E5BF533CD4"
+                        }
+                    },
+                    "allowed": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "19A89A45-89CB-4743-9719-2105E3932901"
+    },
+    "tracks": [
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2994,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__u*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*cos(object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__a)*object__283538FE_D09B_4543_A3D5_085BD15F74D6__directional+object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__dx"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__u*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*cos(object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__a)*object__283538FE_D09B_4543_A3D5_085BD15F74D6__directional+object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__dx"
+                                },
+                                "time": 2994,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionXBlendAccessor"
+        },
+        {
+            "@class": "FloatBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "FloatBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 2994,
+                    "script": "FloatValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "FloatBezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__u*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*sin(object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__a)-(9.8*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t)/2+object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__dy"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        1.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            },
+                            {
+                                "@class": "FloatBezierKeyFrame",
+                                "formula": {
+                                    "@class": "FloatExpressionFormula",
+                                    "expression": "object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__u*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*sin(object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__a)-(9.8*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t*object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__t)/2+object__B8B3336E_0D98_4825_A9BC_CCD1A831B9A5__dy"
+                                },
+                                "time": 2994,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "linear",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "FloatBehaviorTrackScript",
+            "accessor": "PositionYBlendAccessor"
+        }
+    ]
+}
